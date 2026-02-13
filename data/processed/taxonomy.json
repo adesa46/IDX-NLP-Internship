@@ -1,0 +1,1259 @@
+{
+    "terms": [
+        {
+            "id": "1",
+            "term": "space",
+            "category": "Amenities"
+        },
+        {
+            "id": "2",
+            "term": "garage",
+            "category": "Amenities"
+        },
+        {
+            "id": "3",
+            "term": "access",
+            "category": "Amenities"
+        },
+        {
+            "id": "4",
+            "term": "pool",
+            "category": "Amenities"
+        },
+        {
+            "id": "5",
+            "term": "parking",
+            "category": "Amenities"
+        },
+        {
+            "id": "6",
+            "term": "fireplace",
+            "category": "Amenities"
+        },
+        {
+            "id": "7",
+            "term": "backyard",
+            "category": "Amenities"
+        },
+        {
+            "id": "8",
+            "term": "laundry",
+            "category": "Amenities"
+        },
+        {
+            "id": "9",
+            "term": "privacy",
+            "category": "Amenities"
+        },
+        {
+            "id": "10",
+            "term": "spaces",
+            "category": "Amenities"
+        },
+        {
+            "id": "11",
+            "term": "spa",
+            "category": "Amenities"
+        },
+        {
+            "id": "12",
+            "term": "living space",
+            "category": "Amenities"
+        },
+        {
+            "id": "13",
+            "term": "attached",
+            "category": "Amenities"
+        },
+        {
+            "id": "14",
+            "term": "back",
+            "category": "Amenities"
+        },
+        {
+            "id": "15",
+            "term": "beach",
+            "category": "Amenities"
+        },
+        {
+            "id": "16",
+            "term": "pool spa",
+            "category": "Amenities"
+        },
+        {
+            "id": "17",
+            "term": "detached",
+            "category": "Amenities"
+        },
+        {
+            "id": "18",
+            "term": "peaceful",
+            "category": "Amenities"
+        },
+        {
+            "id": "19",
+            "term": "clubhouse",
+            "category": "Amenities"
+        },
+        {
+            "id": "20",
+            "term": "twocar garage",
+            "category": "Amenities"
+        },
+        {
+            "id": "21",
+            "term": "sparkling",
+            "category": "Amenities"
+        },
+        {
+            "id": "22",
+            "term": "easy access",
+            "category": "Amenities"
+        },
+        {
+            "id": "23",
+            "term": "acres",
+            "category": "Amenities"
+        },
+        {
+            "id": "24",
+            "term": "car garage",
+            "category": "Amenities"
+        },
+        {
+            "id": "25",
+            "term": "culdesac",
+            "category": "Amenities"
+        },
+        {
+            "id": "26",
+            "term": "pools",
+            "category": "Amenities"
+        },
+        {
+            "id": "27",
+            "term": "direct access",
+            "category": "Amenities"
+        },
+        {
+            "id": "28",
+            "term": "gym",
+            "category": "Amenities"
+        },
+        {
+            "id": "29",
+            "term": "sparkling pool",
+            "category": "Amenities"
+        },
+        {
+            "id": "30",
+            "term": "place",
+            "category": "Amenities"
+        },
+        {
+            "id": "31",
+            "term": "parking spaces",
+            "category": "Amenities"
+        },
+        {
+            "id": "32",
+            "term": "adjacent",
+            "category": "Amenities"
+        },
+        {
+            "id": "33",
+            "term": "living spaces",
+            "category": "Amenities"
+        },
+        {
+            "id": "34",
+            "term": "2car garage",
+            "category": "Amenities"
+        },
+        {
+            "id": "35",
+            "term": "heater",
+            "category": "Amenities"
+        },
+        {
+            "id": "36",
+            "term": "pacific",
+            "category": "Amenities"
+        },
+        {
+            "id": "37",
+            "term": "indoor laundry",
+            "category": "Amenities"
+        },
+        {
+            "id": "38",
+            "term": "cozy fireplace",
+            "category": "Amenities"
+        },
+        {
+            "id": "39",
+            "term": "water heater",
+            "category": "Amenities"
+        },
+        {
+            "id": "40",
+            "term": "character",
+            "category": "Amenities"
+        },
+        {
+            "id": "41",
+            "term": "hvac",
+            "category": "Amenities"
+        },
+        {
+            "id": "42",
+            "term": "peace",
+            "category": "Amenities"
+        },
+        {
+            "id": "43",
+            "term": "spalike",
+            "category": "Amenities"
+        },
+        {
+            "id": "44",
+            "term": "across",
+            "category": "Amenities"
+        },
+        {
+            "id": "45",
+            "term": "spainspired",
+            "category": "Amenities"
+        },
+        {
+            "id": "46",
+            "term": "active",
+            "category": "Amenities"
+        },
+        {
+            "id": "47",
+            "term": "freeway access",
+            "category": "Amenities"
+        },
+        {
+            "id": "48",
+            "term": "assigned parking",
+            "category": "Amenities"
+        },
+        {
+            "id": "49",
+            "term": "parking space",
+            "category": "Amenities"
+        },
+        {
+            "id": "50",
+            "term": "ample space",
+            "category": "Amenities"
+        },
+        {
+            "id": "51",
+            "term": "backsplash",
+            "category": "Amenities"
+        },
+        {
+            "id": "52",
+            "term": "activities",
+            "category": "Amenities"
+        },
+        {
+            "id": "53",
+            "term": "beaches",
+            "category": "Amenities"
+        },
+        {
+            "id": "54",
+            "term": "attached garage",
+            "category": "Amenities"
+        },
+        {
+            "id": "55",
+            "term": "threecar garage",
+            "category": "Amenities"
+        },
+        {
+            "id": "56",
+            "term": "private backyard",
+            "category": "Amenities"
+        },
+        {
+            "id": "57",
+            "term": "back yard",
+            "category": "Amenities"
+        },
+        {
+            "id": "58",
+            "term": "convenient access",
+            "category": "Amenities"
+        },
+        {
+            "id": "59",
+            "term": "outdoor spaces",
+            "category": "Amenities"
+        },
+        {
+            "id": "60",
+            "term": "closet space",
+            "category": "Amenities"
+        },
+        {
+            "id": "61",
+            "term": "designed living space",
+            "category": "Amenities"
+        },
+        {
+            "id": "62",
+            "term": "acre",
+            "category": "Amenities"
+        },
+        {
+            "id": "63",
+            "term": "spas",
+            "category": "Amenities"
+        },
+        {
+            "id": "64",
+            "term": "backdrop",
+            "category": "Amenities"
+        },
+        {
+            "id": "65",
+            "term": "gas fireplace",
+            "category": "Amenities"
+        },
+        {
+            "id": "66",
+            "term": "air conditioning",
+            "category": "Amenities"
+        },
+        {
+            "id": "67",
+            "term": "community pool",
+            "category": "Amenities"
+        },
+        {
+            "id": "68",
+            "term": "spectacular",
+            "category": "Amenities"
+        },
+        {
+            "id": "69",
+            "term": "terrace",
+            "category": "Amenities"
+        },
+        {
+            "id": "70",
+            "term": "practical",
+            "category": "Amenities"
+        },
+        {
+            "id": "71",
+            "term": "views",
+            "category": "Location"
+        },
+        {
+            "id": "72",
+            "term": "shopping",
+            "category": "Location"
+        },
+        {
+            "id": "73",
+            "term": "neighborhood",
+            "category": "Location"
+        },
+        {
+            "id": "74",
+            "term": "quiet",
+            "category": "Location"
+        },
+        {
+            "id": "75",
+            "term": "schools",
+            "category": "Location"
+        },
+        {
+            "id": "76",
+            "term": "park",
+            "category": "Location"
+        },
+        {
+            "id": "77",
+            "term": "parks",
+            "category": "Location"
+        },
+        {
+            "id": "78",
+            "term": "street",
+            "category": "Location"
+        },
+        {
+            "id": "79",
+            "term": "shopping dining",
+            "category": "Location"
+        },
+        {
+            "id": "80",
+            "term": "downtown",
+            "category": "Location"
+        },
+        {
+            "id": "81",
+            "term": "freeways",
+            "category": "Location"
+        },
+        {
+            "id": "82",
+            "term": "mountain views",
+            "category": "Location"
+        },
+        {
+            "id": "83",
+            "term": "freeway",
+            "category": "Location"
+        },
+        {
+            "id": "84",
+            "term": "neighborhoods",
+            "category": "Location"
+        },
+        {
+            "id": "85",
+            "term": "school",
+            "category": "Location"
+        },
+        {
+            "id": "86",
+            "term": "ocean views",
+            "category": "Location"
+        },
+        {
+            "id": "87",
+            "term": "schools shopping",
+            "category": "Location"
+        },
+        {
+            "id": "88",
+            "term": "toprated schools",
+            "category": "Location"
+        },
+        {
+            "id": "89",
+            "term": "minutes downtown",
+            "category": "Location"
+        },
+        {
+            "id": "90",
+            "term": "near shopping",
+            "category": "Location"
+        },
+        {
+            "id": "91",
+            "term": "updated",
+            "category": "Condition"
+        },
+        {
+            "id": "92",
+            "term": "remodeled",
+            "category": "Condition"
+        },
+        {
+            "id": "93",
+            "term": "fresh",
+            "category": "Condition"
+        },
+        {
+            "id": "94",
+            "term": "paint",
+            "category": "Condition"
+        },
+        {
+            "id": "95",
+            "term": "maintained",
+            "category": "Condition"
+        },
+        {
+            "id": "96",
+            "term": "newly",
+            "category": "Condition"
+        },
+        {
+            "id": "97",
+            "term": "turnkey",
+            "category": "Condition"
+        },
+        {
+            "id": "98",
+            "term": "beautifully updated",
+            "category": "Condition"
+        },
+        {
+            "id": "99",
+            "term": "wellmaintained",
+            "category": "Condition"
+        },
+        {
+            "id": "100",
+            "term": "beautifully maintained",
+            "category": "Condition"
+        },
+        {
+            "id": "101",
+            "term": "carpet",
+            "category": "Condition"
+        },
+        {
+            "id": "102",
+            "term": "painted",
+            "category": "Condition"
+        },
+        {
+            "id": "103",
+            "term": "freshly",
+            "category": "Condition"
+        },
+        {
+            "id": "104",
+            "term": "updated kitchen",
+            "category": "Condition"
+        },
+        {
+            "id": "105",
+            "term": "freshly painted",
+            "category": "Condition"
+        },
+        {
+            "id": "106",
+            "term": "interior paint",
+            "category": "Condition"
+        },
+        {
+            "id": "107",
+            "term": "fresh interior",
+            "category": "Condition"
+        },
+        {
+            "id": "108",
+            "term": "fresh paint",
+            "category": "Condition"
+        },
+        {
+            "id": "109",
+            "term": "refreshed",
+            "category": "Condition"
+        },
+        {
+            "id": "110",
+            "term": "fully remodeled",
+            "category": "Condition"
+        },
+        {
+            "id": "111",
+            "term": "modern",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "112",
+            "term": "custom",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "113",
+            "term": "lifestyle",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "114",
+            "term": "style",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "115",
+            "term": "resortstyle",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "116",
+            "term": "contemporary",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "117",
+            "term": "ranch",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "118",
+            "term": "rancho",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "119",
+            "term": "modern finishes",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "120",
+            "term": "resortstyle amenities",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "121",
+            "term": "comfort style",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "122",
+            "term": "craftsmanship",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "123",
+            "term": "modern design",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "124",
+            "term": "resortstyle amenities including",
+            "category": "Architecture_Style"
+        },
+        {
+            "id": "125",
+            "term": "condo",
+            "category": "Property_Type"
+        },
+        {
+            "id": "126",
+            "term": "estate",
+            "category": "Property_Type"
+        },
+        {
+            "id": "127",
+            "term": "estates",
+            "category": "Property_Type"
+        },
+        {
+            "id": "128",
+            "term": "condo offers",
+            "category": "Property_Type"
+        },
+        {
+            "id": "129",
+            "term": "private",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "130",
+            "term": "valley",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "131",
+            "term": "hoa",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "132",
+            "term": "available",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "133",
+            "term": "vanity",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "134",
+            "term": "value",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "135",
+            "term": "feet",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "136",
+            "term": "feel",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "137",
+            "term": "renovated",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "138",
+            "term": "vaulted",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "139",
+            "term": "coffee",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "140",
+            "term": "square feet",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "141",
+            "term": "vaulted ceilings",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "142",
+            "term": "elevated",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "143",
+            "term": "morning coffee",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "144",
+            "term": "feels",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "145",
+            "term": "private balcony",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "146",
+            "term": "private retreat",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "147",
+            "term": "canvas",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "148",
+            "term": "private patio",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "149",
+            "term": "sold",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "150",
+            "term": "vanities",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "151",
+            "term": "sale",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "152",
+            "term": "renovation",
+            "category": "Financial_Legal"
+        },
+        {
+            "id": "153",
+            "term": "lot",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "154",
+            "term": "patio",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "155",
+            "term": "yard",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "156",
+            "term": "deck",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "157",
+            "term": "landscaping",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "158",
+            "term": "balcony",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "159",
+            "term": "fenced",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "160",
+            "term": "covered patio",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "161",
+            "term": "courtyard",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "162",
+            "term": "corner lot",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "163",
+            "term": "lots",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "164",
+            "term": "side yard",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "165",
+            "term": "front yard",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "166",
+            "term": "decks",
+            "category": "Exterior_Lot"
+        },
+        {
+            "id": "167",
+            "term": "living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "168",
+            "term": "kitchen",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "169",
+            "term": "bedrooms",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "170",
+            "term": "dining",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "171",
+            "term": "bedroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "172",
+            "term": "open",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "173",
+            "term": "bathroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "174",
+            "term": "suite",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "175",
+            "term": "closet",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "176",
+            "term": "bath",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "177",
+            "term": "bathrooms",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "178",
+            "term": "primary suite",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "179",
+            "term": "walkin closet",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "180",
+            "term": "floor plan",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "181",
+            "term": "dining area",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "182",
+            "term": "openconcept",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "183",
+            "term": "living area",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "184",
+            "term": "bedrooms bathrooms",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "185",
+            "term": "ensuite",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "186",
+            "term": "open floor",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "187",
+            "term": "everyday living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "188",
+            "term": "open floor plan",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "189",
+            "term": "baths",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "190",
+            "term": "master",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "191",
+            "term": "opens",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "192",
+            "term": "closets",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "193",
+            "term": "living areas",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "194",
+            "term": "primary bedroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "195",
+            "term": "2bath",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "196",
+            "term": "living dining",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "197",
+            "term": "2bedroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "198",
+            "term": "bedroom bath",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "199",
+            "term": "living entertaining",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "200",
+            "term": "3bedroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "201",
+            "term": "full bathroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "202",
+            "term": "outdoor living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "203",
+            "term": "additional bedrooms",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "204",
+            "term": "gourmet kitchen",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "205",
+            "term": "4bedroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "206",
+            "term": "bedrooms baths",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "207",
+            "term": "openconcept layout",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "208",
+            "term": "everyday living entertaining",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "209",
+            "term": "formal living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "210",
+            "term": "bedroom bathroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "211",
+            "term": "full bath",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "212",
+            "term": "open living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "213",
+            "term": "bedrooms full",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "214",
+            "term": "primary bathroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "215",
+            "term": "three bedrooms",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "216",
+            "term": "2bathroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "217",
+            "term": "suite offers",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "218",
+            "term": "bright open",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "219",
+            "term": "offers bedrooms",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "220",
+            "term": "openconcept living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "221",
+            "term": "ensuite bathroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "222",
+            "term": "open layout",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "223",
+            "term": "walkin closets",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "224",
+            "term": "concept",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "225",
+            "term": "bedroom full",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "226",
+            "term": "multigenerational living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "227",
+            "term": "indooroutdoor living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "228",
+            "term": "half bath",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "229",
+            "term": "dining areas",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "230",
+            "term": "desert living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "231",
+            "term": "formal dining",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "232",
+            "term": "living kitchen",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "233",
+            "term": "designed living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "234",
+            "term": "open concept",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "235",
+            "term": "comfortable living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "236",
+            "term": "bed bath",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "237",
+            "term": "kitchen granite",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "238",
+            "term": "area kitchen",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "239",
+            "term": "featuring bedrooms",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "240",
+            "term": "primary suite offers",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "241",
+            "term": "thoughtfully designed living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "242",
+            "term": "1bedroom",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "243",
+            "term": "kitchen dining",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "244",
+            "term": "upgraded kitchen",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "245",
+            "term": "chefs kitchen",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "246",
+            "term": "master suite",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "247",
+            "term": "offering bedrooms",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "248",
+            "term": "main living",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "249",
+            "term": "kitchen featuring",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "250",
+            "term": "living dining areas",
+            "category": "Rooms_Layout"
+        },
+        {
+            "id": "251",
+            "term": "1bath",
+            "category": "Rooms_Layout"
+        }
+    ]
+}
