@@ -25,4 +25,10 @@ jupyter notebook notebooks/data_exploration.ipynb
 Run tests with PyTest:
 ```bash
 pytest tests/test_taxonomy_coverage.py -s
+pytest tests/test_week2.py -v
+```
+
+Run Data Cleaning Pipeline (Week 2):
+```bash
+python scripts/week2_pipeline.py
 ```
