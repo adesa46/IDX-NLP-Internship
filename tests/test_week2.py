@@ -3,8 +3,7 @@ import pandas as pd
 import sys
 import os
 
-# Add scripts directory to path to import TextCleaner
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'scripts')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from scripts.text_cleaning import TextCleaner
 
 @pytest.fixture
