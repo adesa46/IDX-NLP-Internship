@@ -12,5 +12,12 @@ services:
       - ./data/raw:/docker-entrypoint-initdb.d:ro
       - mysql_data:/var/lib/mysql
 
+  nlp:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["python", "-m", "pytest", "tests/test_week5.py", "-v"]
+
 volumes:
   mysql_data:

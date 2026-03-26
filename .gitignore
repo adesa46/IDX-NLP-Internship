@@ -1,4 +1,36 @@
+# Raw data (too large for Git)
 data/raw/
+
+# Trained models
+data/models/
+
+# Python cache
 __pycache__/
 **/__pycache__/
-data/models/
+*.pyc
+*.pyo
+
+# Pytest cache
+.pytest_cache/
+**/.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training logs
+train_log*.txt
+
+# Docker
+mysql_data/

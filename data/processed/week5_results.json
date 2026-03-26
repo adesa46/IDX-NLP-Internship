@@ -1,0 +1,15 @@
+{
+  "semantic_precision_at_k": 0.7839999999999999,
+  "bm25_precision_at_k": 0.968,
+  "semantic_mrr": 0.905,
+  "bm25_mrr": 0.99,
+  "avg_overlap": 0.15200000000000002,
+  "num_queries": 50,
+  "top_k": 5,
+  "semantic_avg_latency_ms": 7.182825699997392,
+  "bm25_avg_latency_ms": 0.5814504333424491,
+  "semantic_p95_latency_ms": 8.349955849945445,
+  "bm25_p95_latency_ms": 0.7955656166643621,
+  "num_listings": 646,
+  "embedding_dim": 384
+}
