@@ -1,0 +1,842 @@
+[
+  {
+    "query": "Move-in ready 5 bed 3 bath in Irvine",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Show me what's on the market",
+    "intent": "browsing"
+  },
+  {
+    "query": "Need immediate move-in 2 bed in Irvine",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Want to close on a house in Los Angeles by next month",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "I'm pre-approved for $750000, find me 5 bed homes in San Diego",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Is it better to buy a single family or a house?",
+    "intent": "researching"
+  },
+  {
+    "query": "Compare colonial vs modern homes",
+    "intent": "researching"
+  },
+  {
+    "query": "Must have garage, 5 bed, Los Angeles",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What's the HOA like for single familys in San Diego?",
+    "intent": "researching"
+  },
+  {
+    "query": "I'm curious about homes in the suburbs",
+    "intent": "browsing"
+  },
+  {
+    "query": "Show me homes with dining room",
+    "intent": "browsing"
+  },
+  {
+    "query": "Any condos on the market?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Want to close on a house in Los Angeles by next month",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Find me a 5 bedroom townhouse in Portland with fireplace",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "I need a colonial condo in San Diego, 5 bed 1 bath",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What should I know about buying in San Diego?",
+    "intent": "researching"
+  },
+  {
+    "query": "I'm curious about homes in the hills",
+    "intent": "browsing"
+  },
+  {
+    "query": "Show me turn-key townhouses in uptown under $1000000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Filter condos: 2+ beds, 2+ baths, under $750000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Which neighborhoods have the best schools?",
+    "intent": "researching"
+  },
+  {
+    "query": "How long do homes stay on market in the hills?",
+    "intent": "researching"
+  },
+  {
+    "query": "I need a condo with master suite under $1000000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What kind of houses are out there?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Any townhouses on the market?",
+    "intent": "browsing"
+  },
+  {
+    "query": "What's the average price per sqft in Los Angeles?",
+    "intent": "researching"
+  },
+  {
+    "query": "Are prices going up or down in San Diego?",
+    "intent": "researching"
+  },
+  {
+    "query": "Help me understand the Irvine market",
+    "intent": "researching"
+  },
+  {
+    "query": "Financing ready, need 4 bed in the beach under $500000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Submit offer for a 5 bed single family in Los Angeles",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Do condos appreciate faster than condos?",
+    "intent": "researching"
+  },
+  {
+    "query": "What's the average price in Los Angeles?",
+    "intent": "browsing"
+  },
+  {
+    "query": "What's the price difference between downtown and the suburbs?",
+    "intent": "researching"
+  },
+  {
+    "query": "Show me the newest listings",
+    "intent": "browsing"
+  },
+  {
+    "query": "Which is a better investment, Portland or Portland?",
+    "intent": "researching"
+  },
+  {
+    "query": "Show me the most popular listings",
+    "intent": "browsing"
+  },
+  {
+    "query": "General search for homes",
+    "intent": "browsing"
+  },
+  {
+    "query": "How do homes near shopping centers compare in price?",
+    "intent": "researching"
+  },
+  {
+    "query": "Any new listings lately?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Compare homes in San Diego vs Los Angeles",
+    "intent": "researching"
+  },
+  {
+    "query": "Set up alerts for 2 bed homes under $900000 in San Diego",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "I heard Irvine is nice, what's available?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Compare homes in Portland vs San Diego",
+    "intent": "researching"
+  },
+  {
+    "query": "Move-in ready 5 bed 3 bath in Portland",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Book a tour for houses with large backyard in the hills",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What's available in Los Angeles?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Find me a 3 bedroom house in San Diego with large backyard",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What are closing costs in San Diego?",
+    "intent": "researching"
+  },
+  {
+    "query": "What's the inventory like in Los Angeles?",
+    "intent": "researching"
+  },
+  {
+    "query": "I'm thinking about maybe buying someday",
+    "intent": "browsing"
+  },
+  {
+    "query": "What areas have good value?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Ready to make an offer on a condo in Portland",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Show me 4+ bed homes under $1000000 in downtown",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Show me the most popular listings",
+    "intent": "browsing"
+  },
+  {
+    "query": "What are the property taxes in San Diego?",
+    "intent": "researching"
+  },
+  {
+    "query": "Searching for my next home: 5 bed in Irvine with updated kitchen",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What are the school ratings near the suburbs?",
+    "intent": "researching"
+  },
+  {
+    "query": "What should I know about buying in San Diego?",
+    "intent": "researching"
+  },
+  {
+    "query": "Give me an overview of Irvine real estate",
+    "intent": "browsing"
+  },
+  {
+    "query": "What's the average lot size in the beach?",
+    "intent": "researching"
+  },
+  {
+    "query": "What does the market look like in the suburbs?",
+    "intent": "browsing"
+  },
+  {
+    "query": "2 bed 2 bath under $900000 in Portland",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What are closing costs in Portland?",
+    "intent": "researching"
+  },
+  {
+    "query": "Must have pool, 4 bed, San Diego",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Pros of living in uptown vs uptown",
+    "intent": "researching"
+  },
+  {
+    "query": "Only show single familys in San Diego under $500000 with walk in closet",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Filter condos: 4+ beds, 3+ baths, under $600000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Sort by lowest price, 2 bed condo in Los Angeles",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What can I get for 500k?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Schedule a showing for houses in downtown",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Tell me about the San Diego housing market trends",
+    "intent": "researching"
+  },
+  {
+    "query": "Need a condo with at least 5 beds and 1 baths",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Show me the newest listings",
+    "intent": "browsing"
+  },
+  {
+    "query": "Exclude homes without large backyard, 4 bed under $750000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What areas have good value?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Serious buyer looking for 4 bed in the hills",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What's trending in real estate?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Which is a better investment, Irvine or Irvine?",
+    "intent": "researching"
+  },
+  {
+    "query": "I'm thinking about maybe buying someday",
+    "intent": "browsing"
+  },
+  {
+    "query": "Looking for 4 bed 2 bath near the park under $900000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Only show single familys in Los Angeles under $750000 with updated kitchen",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What are the property taxes in Portland?",
+    "intent": "researching"
+  },
+  {
+    "query": "Any good neighborhoods in Irvine?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Which areas are appreciating the fastest?",
+    "intent": "researching"
+  },
+  {
+    "query": "Casually looking at homes in Los Angeles",
+    "intent": "browsing"
+  },
+  {
+    "query": "Is San Diego a good place to invest?",
+    "intent": "researching"
+  },
+  {
+    "query": "What's the price difference between the hills and the valley?",
+    "intent": "researching"
+  },
+  {
+    "query": "Need immediate move-in 3 bed in Los Angeles",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Looking around at properties in the beach",
+    "intent": "browsing"
+  },
+  {
+    "query": "Book a tour for townhouses with dining room in uptown",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What are the pros and cons of single familys?",
+    "intent": "researching"
+  },
+  {
+    "query": "Compare 5 bed homes vs 5 bed homes",
+    "intent": "researching"
+  },
+  {
+    "query": "What's the average price in Portland?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Is it better to buy a townhouse or a single family?",
+    "intent": "researching"
+  },
+  {
+    "query": "Find exactly a 5 bed 1 bath townhouse near public transit",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Browsing homes in Portland",
+    "intent": "browsing"
+  },
+  {
+    "query": "Submit offer for a 5 bed condo in Irvine",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Any new listings lately?",
+    "intent": "browsing"
+  },
+  {
+    "query": "How much should I budget for a condo in Portland?",
+    "intent": "researching"
+  },
+  {
+    "query": "How does the suburbs rank for families?",
+    "intent": "researching"
+  },
+  {
+    "query": "I'm ready to buy a 4 bed home in San Diego with large backyard",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What's for sale near the park?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Contact agent about houses in San Diego",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "How does the beach rank for families?",
+    "intent": "researching"
+  },
+  {
+    "query": "Pros of living in uptown vs uptown",
+    "intent": "researching"
+  },
+  {
+    "query": "What does the market look like in the beach?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Any nice neighborhoods to explore?",
+    "intent": "browsing"
+  },
+  {
+    "query": "What financing options are available for single familys?",
+    "intent": "researching"
+  },
+  {
+    "query": "Are there any open houses this weekend?",
+    "intent": "browsing"
+  },
+  {
+    "query": "How much should I budget for a townhouse in San Diego?",
+    "intent": "researching"
+  },
+  {
+    "query": "Looking to close quickly on a condo in Los Angeles",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What types of homes are in uptown?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Show me some listings",
+    "intent": "browsing"
+  },
+  {
+    "query": "I need a condo with updated kitchen under $900000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "I'm just looking around",
+    "intent": "browsing"
+  },
+  {
+    "query": "Show me what's on the market",
+    "intent": "browsing"
+  },
+  {
+    "query": "I want to buy a single family in Los Angeles this month",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What's the inventory like in Portland?",
+    "intent": "researching"
+  },
+  {
+    "query": "What's for sale near the park?",
+    "intent": "browsing"
+  },
+  {
+    "query": "What kind of single familys are out there?",
+    "intent": "browsing"
+  },
+  {
+    "query": "What are the school ratings near downtown?",
+    "intent": "researching"
+  },
+  {
+    "query": "Help me understand the Portland market",
+    "intent": "researching"
+  },
+  {
+    "query": "How do homes near the park compare in price?",
+    "intent": "researching"
+  },
+  {
+    "query": "Looking to close quickly on a house in Irvine",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "5 bed 2 bath under $750000 in San Diego",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Sort by lowest price, 4 bed single family in Portland",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "2 bed colonial home in Irvine under $900000 with walk in closet",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Show me some houses",
+    "intent": "browsing"
+  },
+  {
+    "query": "2 bed ranch home in Irvine under $900000 with fireplace",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "I want to buy a single family in Irvine this month",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "I want to see what's available",
+    "intent": "browsing"
+  },
+  {
+    "query": "I'm just looking around",
+    "intent": "browsing"
+  },
+  {
+    "query": "5 bedroom 1 bathroom condo with master suite in Los Angeles under $900000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "I'm pre-approved for $900000, find me 2 bed homes in San Diego",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Show me homes with fireplace",
+    "intent": "browsing"
+  },
+  {
+    "query": "Any deals in Irvine?",
+    "intent": "browsing"
+  },
+  {
+    "query": "How do condos compare to houses in Irvine?",
+    "intent": "researching"
+  },
+  {
+    "query": "What types of homes are in uptown?",
+    "intent": "browsing"
+  },
+  {
+    "query": "I need a ranch single family in Los Angeles, 5 bed 1 bath",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Compare colonial vs contemporary homes",
+    "intent": "researching"
+  },
+  {
+    "query": "Browse ranch homes",
+    "intent": "browsing"
+  },
+  {
+    "query": "Anything interesting in the suburbs?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Find exactly a 4 bed 1 bath house near shopping centers",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "How long do homes stay on market in the beach?",
+    "intent": "researching"
+  },
+  {
+    "query": "Serious buyer looking for 3 bed in the valley",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What amenities add the most value?",
+    "intent": "researching"
+  },
+  {
+    "query": "Max budget $900000, need 3 beds in Irvine",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "How much do single familys cost in the beach?",
+    "intent": "researching"
+  },
+  {
+    "query": "Show me turn-key townhouses in downtown under $750000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Need a house with at least 3 beds and 2 baths",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Casually looking at homes in Los Angeles",
+    "intent": "browsing"
+  },
+  {
+    "query": "General search for homes",
+    "intent": "browsing"
+  },
+  {
+    "query": "What's the average price per sqft in San Diego?",
+    "intent": "researching"
+  },
+  {
+    "query": "What's a fair price for 4 beds in Los Angeles?",
+    "intent": "researching"
+  },
+  {
+    "query": "Are prices going up or down in Portland?",
+    "intent": "researching"
+  },
+  {
+    "query": "Are there any open houses this weekend?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Browse modern homes",
+    "intent": "browsing"
+  },
+  {
+    "query": "What amenities add the most value?",
+    "intent": "researching"
+  },
+  {
+    "query": "Set up alerts for 3 bed homes under $600000 in Los Angeles",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Looking for 4 bed 3 bath near the park under $500000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What's trending in real estate?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Max budget $500000, need 3 beds in Irvine",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What financing options are available for townhouses?",
+    "intent": "researching"
+  },
+  {
+    "query": "4 bedroom 3 bathroom house with master suite in Portland under $1000000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What's the crime rate near the valley?",
+    "intent": "researching"
+  },
+  {
+    "query": "Do houses appreciate faster than condos?",
+    "intent": "researching"
+  },
+  {
+    "query": "What's the crime rate near downtown?",
+    "intent": "researching"
+  },
+  {
+    "query": "I'm ready to buy a 3 bed home in San Diego with walk in closet",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Pre-qualified, looking for a single family under $900000 in the suburbs",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Any good neighborhoods in Portland?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Show me some condos",
+    "intent": "browsing"
+  },
+  {
+    "query": "Show me market analysis for San Diego",
+    "intent": "researching"
+  },
+  {
+    "query": "Which neighborhoods have the best schools?",
+    "intent": "researching"
+  },
+  {
+    "query": "Show me some listings",
+    "intent": "browsing"
+  },
+  {
+    "query": "Which areas are appreciating the fastest?",
+    "intent": "researching"
+  },
+  {
+    "query": "What homes are listed right now?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Anything interesting in the valley?",
+    "intent": "browsing"
+  },
+  {
+    "query": "What's a fair price for 3 beds in Los Angeles?",
+    "intent": "researching"
+  },
+  {
+    "query": "I want to see what's available",
+    "intent": "browsing"
+  },
+  {
+    "query": "Compare 3 bed homes vs 2 bed homes",
+    "intent": "researching"
+  },
+  {
+    "query": "How much do single familys cost in the hills?",
+    "intent": "researching"
+  },
+  {
+    "query": "Any nice neighborhoods to explore?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Any deals in Irvine?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Show me 3+ bed homes under $900000 in downtown",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Just checking out properties",
+    "intent": "browsing"
+  },
+  {
+    "query": "What's available in Portland?",
+    "intent": "browsing"
+  },
+  {
+    "query": "What homes are listed right now?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Research contemporary homes in the hills",
+    "intent": "researching"
+  },
+  {
+    "query": "Browsing homes in Los Angeles",
+    "intent": "browsing"
+  },
+  {
+    "query": "Pre-qualified, looking for a condo under $900000 in the hills",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "What are the pros and cons of houses?",
+    "intent": "researching"
+  },
+  {
+    "query": "Financing ready, need 5 bed in downtown under $750000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "How do townhouses compare to condos in Irvine?",
+    "intent": "researching"
+  },
+  {
+    "query": "Schedule a showing for townhouses in the beach",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Find single familys with garage and updated kitchen in Los Angeles",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Ready to make an offer on a house in Los Angeles",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Contact agent about townhouses in Portland",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Is Portland a good place to invest?",
+    "intent": "researching"
+  },
+  {
+    "query": "What's the HOA like for houses in Los Angeles?",
+    "intent": "researching"
+  },
+  {
+    "query": "Looking around at properties in downtown",
+    "intent": "browsing"
+  },
+  {
+    "query": "Tell me about the Irvine housing market trends",
+    "intent": "researching"
+  },
+  {
+    "query": "Just checking out properties",
+    "intent": "browsing"
+  },
+  {
+    "query": "Show me market analysis for Los Angeles",
+    "intent": "researching"
+  },
+  {
+    "query": "What's the average lot size in the hills?",
+    "intent": "researching"
+  },
+  {
+    "query": "What can I get for 500k?",
+    "intent": "browsing"
+  },
+  {
+    "query": "Research modern homes in the suburbs",
+    "intent": "researching"
+  },
+  {
+    "query": "Find townhouses with fireplace and pool in Irvine",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Exclude homes without updated kitchen, 2 bed under $750000",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "Give me an overview of Irvine real estate",
+    "intent": "browsing"
+  },
+  {
+    "query": "Searching for my next home: 4 bed in Portland with fireplace",
+    "intent": "ready_to_buy"
+  },
+  {
+    "query": "I heard Irvine is nice, what's available?",
+    "intent": "browsing"
+  }
+]

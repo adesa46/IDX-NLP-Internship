@@ -1,0 +1,160 @@
+{
+  "total_queries": 210,
+  "train_size": 168,
+  "test_size": 42,
+  "dataset_distribution": {
+    "browsing": 70,
+    "ready_to_buy": 70,
+    "researching": 70
+  },
+  "accuracy": 0.9048,
+  "confusion_matrix": [
+    [
+      12,
+      0,
+      2
+    ],
+    [
+      0,
+      14,
+      0
+    ],
+    [
+      2,
+      0,
+      12
+    ]
+  ],
+  "labels": [
+    "browsing",
+    "ready_to_buy",
+    "researching"
+  ],
+  "per_class_metrics": {
+    "browsing": {
+      "precision": 0.8571,
+      "recall": 0.8571,
+      "f1": 0.8571,
+      "support": 14
+    },
+    "ready_to_buy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 14
+    },
+    "researching": {
+      "precision": 0.8571,
+      "recall": 0.8571,
+      "f1": 0.8571,
+      "support": 14
+    }
+  },
+  "avg_confidence_by_intent": {
+    "browsing": 0.5625,
+    "researching": 0.5296,
+    "ready_to_buy": 0.5976
+  },
+  "sample_predictions": [
+    {
+      "query": "What's available in Portland?",
+      "predicted_intent": "browsing",
+      "confidence": 0.6662,
+      "probabilities": {
+        "browsing": 0.6662,
+        "ready_to_buy": 0.14,
+        "researching": 0.1938
+      }
+    },
+    {
+      "query": "Show me what's on the market",
+      "predicted_intent": "browsing",
+      "confidence": 0.7029,
+      "probabilities": {
+        "browsing": 0.7029,
+        "ready_to_buy": 0.1007,
+        "researching": 0.1964
+      }
+    },
+    {
+      "query": "How do condos compare to townhouses?",
+      "predicted_intent": "researching",
+      "confidence": 0.6855,
+      "probabilities": {
+        "browsing": 0.1537,
+        "ready_to_buy": 0.1607,
+        "researching": 0.6855
+      }
+    },
+    {
+      "query": "Compare prices in the suburbs vs downtown",
+      "predicted_intent": "researching",
+      "confidence": 0.6815,
+      "probabilities": {
+        "browsing": 0.1837,
+        "ready_to_buy": 0.1348,
+        "researching": 0.6815
+      }
+    },
+    {
+      "query": "3 bed 2 bath under $500k in Portland with pool",
+      "predicted_intent": "ready_to_buy",
+      "confidence": 0.7745,
+      "probabilities": {
+        "browsing": 0.1246,
+        "ready_to_buy": 0.7745,
+        "researching": 0.1009
+      }
+    },
+    {
+      "query": "I need a condo with garage under $600k",
+      "predicted_intent": "ready_to_buy",
+      "confidence": 0.7652,
+      "probabilities": {
+        "browsing": 0.1213,
+        "ready_to_buy": 0.7652,
+        "researching": 0.1136
+      }
+    },
+    {
+      "query": "Schedule a showing for condos in downtown",
+      "predicted_intent": "researching",
+      "confidence": 0.3831,
+      "probabilities": {
+        "browsing": 0.2516,
+        "ready_to_buy": 0.3653,
+        "researching": 0.3831
+      }
+    },
+    {
+      "query": "Any nice neighborhoods to explore?",
+      "predicted_intent": "browsing",
+      "confidence": 0.6923,
+      "probabilities": {
+        "browsing": 0.6923,
+        "ready_to_buy": 0.1417,
+        "researching": 0.1659
+      }
+    },
+    {
+      "query": "Is Portland a good place to invest?",
+      "predicted_intent": "researching",
+      "confidence": 0.4764,
+      "probabilities": {
+        "browsing": 0.3243,
+        "ready_to_buy": 0.1993,
+        "researching": 0.4764
+      }
+    },
+    {
+      "query": "Pre-approved for $750k, find me 4 bed homes in Irvine",
+      "predicted_intent": "ready_to_buy",
+      "confidence": 0.5426,
+      "probabilities": {
+        "browsing": 0.2561,
+        "ready_to_buy": 0.5426,
+        "researching": 0.2014
+      }
+    }
+  ]
+}
