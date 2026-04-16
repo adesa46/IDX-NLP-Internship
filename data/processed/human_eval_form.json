@@ -1,0 +1,289 @@
+[
+  {
+    "listing_id": 654,
+    "original_remarks": ", 0, 0, 1, 0, 1, 0, 0, 1, 1, NULL, 1, 3, 1, 1, NULL, 0.1286, 5603.00, 5603.00,",
+    "generated_summary": ", 0, 0, 1, 0, 1, 0, 0, 1, 1, NULL, 1, 3, 1, 1, NULL, 0.1286, 5603.00, 5603.00,",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 114,
+    "original_remarks": "Balcony,SeparateFormalDiningRoom,EatInKitchen,Elevator,HighCeilings,OpenFloorplan,RecessedLighting,TrackLighting,JackAndJillBath,WalkInClosets",
+    "generated_summary": "Balcony,SeparateFormalDiningRoom,EatInKitchen,Elevator,HighCeilings,OpenFloorplan,RecessedLighting,TrackLighting,JackAndJillBath,WalkInClosets",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [
+      "balcony"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 25,
+    "original_remarks": ", 0, 0, 1, 1, 0, 0, 0, 141, 141, NULL, 1, NULL, 1, 1, 484999, 0.2400, 10454.00, 10454.00,",
+    "generated_summary": ", 0, 0, 1, 1, 0, 0, 0, 141, 141, NULL, 1, NULL, 1, 1, 484999, 0.2400, 10454.00, 10454.00,",
+    "beds": null,
+    "baths": null,
+    "price": 484999,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 759,
+    "original_remarks": "Rare lifestyle property in desirable West Lancaster/Quartz Hill area on ~1.25 acres of flat, usable land. This single-story 4 bed, 2 bath home offers comfortable living space and an incredible backyard featuring a custom in-ground pool and spa with extensive stamped concrete hardscape, grassy areas, and mature palms\u2014perfect for entertaining. Property includes an oversized solar system for energy efficiency, detached garage with covered porch ideal for workshop or storage, and corrals for livesto",
+    "generated_summary": "Rare lifestyle property in desirable West Lancaster/Quartz Hill area on ~1.25 acres of flat, usable land. This single-story 4 bed, 2 bath home offers comfortable living space and an incredible backyard featuring a custom in-ground pool and spa with extensive stamped concrete hardscape, grassy areas, and mature palms\u2014perfect for entertaining.",
+    "beds": 4,
+    "baths": 2.0,
+    "price": null,
+    "top_features": [
+      "pool",
+      "garage"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 281,
+    "original_remarks": "This Home is Located in the Silver Lakes Community of HelenDale, A well - known planned neighborhood built around two lakes, golf courses, and community amenities . The area offers access to parks , walking paths , and recreational Facilities .\\r\\r\\nresidents enjoy convenience to local shops dining, options without being far from the city \\r\\r\\nand community services. \\r\\r\\nsetting feels open and spacious with desert landscapes and mountains views common throughout the region.\\r\\r\\n\\r\\r\\n\\r\\r\\nA",
+    "generated_summary": "This Home is Located in the Silver Lakes Community of HelenDale, A well - known planned neighborhood built around two lakes, golf courses, and community amenities . \\r\\r\\nsetting feels open and spacious with desert landscapes and mountains views common throughout the region.\\r\\r\\n\\r\\r\\n\\r\\r\\nAlso known for HOA Amenities Include RESORT style to have access to the both Lakes -Boating , Fishing \\r\\r\\nGolf Coarse , Tennis Courts Pool and Spa and , golf clubhouse, pool and security services, \\r\\r\\n\\r\\r\\nBlends comfort with a lifestyle full of activities and convenience.",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [
+      "pool",
+      "spa"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 250,
+    "original_remarks": ", 1, NULL, 1, 1, 1, 1, 0, 2, NULL, 1, 16, NULL, 4, 2, NULL, 0.2296, 10000.00, 10000.00,",
+    "generated_summary": ", 1, NULL, 1, 1, 1, 1, 0, 2, NULL, 1, 16, NULL, 4, 2, NULL, 0.2296, 10000.00, 10000.00,",
+    "beds": null,
+    "baths": null,
+    "price": 10000,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 228,
+    "original_remarks": "&#127749; Welcome to Your Cozy Private Retreat in Sunrise Country Club! &#127969;Looking for the perfect weekend escape or a smart investment opportunity in the heart of Rancho Mirage? Look no further than this charming and affordably priced condo in the highly sought-after Sunrise Country Club -- one of the best values in the entire desert!&#10024; Property Highlights:&#128184; One of the Lowest Priced Condos in Rancho Mirage!&#128719; 1 Bedroom | 1 Bathroom | Open Concept Living&#129521; Class",
+    "generated_summary": "&#127749; Welcome to Your Cozy Private Retreat in Sunrise Country Club! Look no further than this charming and affordably priced condo in the highly sought-after Sunrise Country Club -- one of the best values in the entire desert!&#10024; Property Highlights:&#128184; One of the Lowest Priced Condos in Rancho Mirage!&#128719; 1 Bedroom | 1 Bathroom | Open Concept Living&#129521; Classic Saltillo Tile Flooring Throughout -- Timeless Desert Style&#127807; Tucked Away on a Private Greenbelt Location for Peace & Quiet&#127774; Bright & Airy Kitchen Overlooking a Tranquil Courtyard&#127748; Mountain Views that Provide the Perfect Backdrop for Morning Coffee or Sunset Cocktails&#127796; Located in a Prestigious Gated Golf Community with Amenities Including Pools, Tennis Courts, Pickleball, Fitness Center, and ClubhouseWhether you\\",
+    "beds": 1,
+    "baths": 1.0,
+    "price": 127749,
+    "top_features": [
+      "pool",
+      "view"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 142,
+    "original_remarks": "s management program, this turnkey suite offers a unique opportunity to own at one of the Central Coast's most desirable beachfront destinations. Schedule your private tour today and experience the refined coastal lifestyle that Dolphin Bay is known for.",
+    "generated_summary": "s management program, this turnkey suite offers a unique opportunity to own at one of the Central Coast's most desirable beachfront destinations. Schedule your private tour today and experience the refined coastal lifestyle that Dolphin Bay is known for.",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [
+      "turnkey"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 754,
+    "original_remarks": "Dishwasher,GasRange,GasWaterHeater,IceMaker,Microwave,Refrigerator,RangeHood",
+    "generated_summary": "Dishwasher,GasRange,GasWaterHeater,IceMaker,Microwave,Refrigerator,RangeHood",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 104,
+    "original_remarks": ", 0, 0, 1, 0, 0, 0, NULL, 83, 83, NULL, 1, NULL, 2, 1, 527700, 0.1760, 7665.00, 7665.00,",
+    "generated_summary": ", 0, 0, 1, 0, 0, 0, NULL, 83, 83, NULL, 1, NULL, 2, 1, 527700, 0.1760, 7665.00, 7665.00,",
+    "beds": null,
+    "baths": null,
+    "price": 527700,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 692,
+    "original_remarks": ", 0, 0, 1, 1, 1, 0, 0, 100, NULL, 0, NULL, 4, 1, NULL, 304990, 0.2384, 10385.00, 10385.00,",
+    "generated_summary": ", 0, 0, 1, 1, 1, 0, 0, 100, NULL, 0, NULL, 4, 1, NULL, 304990, 0.2384, 10385.00, 10385.00,",
+    "beds": null,
+    "baths": null,
+    "price": 304990,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 758,
+    "original_remarks": "PRICE REDUCED !!! WOW !!! Rare 3-Unit Opportunity in North Inglewood. Fully Remodeled & Move-In Ready! Discover the perfect blend of versatility and income potential in this meticulously renovated multi-unit property. Quiet neighborhood with a Rec. Center and elementary school up the block and nearby Rogers park. Located minutes from SoFi Stadium, the Intuit Dome, and Westfield Culver City, this North Inglewood gem is ready for move-in, rental, or both. The property features approximately 1470 S",
+    "generated_summary": "PRICE REDUCED ! Detached ADU: A bright, permitted Studio with 1 Bathroom (~250 SF) situated above the garage which is available for income on Day 1 and Top-to-Bottom Renovation: Enjoy total peace of mind with brand-new kitchen appliances, modern flooring, HVAC (Main House), updated heaters, stylish bathrooms, newly-installed lighting, and fresh interior/exterior paint throughout.",
+    "beds": null,
+    "baths": 1.0,
+    "price": 6800,
+    "top_features": [
+      "garage",
+      "spa"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 913,
+    "original_remarks": ", 0, 0, 1, 1, 1, 0, NULL, 8, 8, NULL, 1, NULL, 2, 1, NULL, 0.2043, 8900.00, 8900.00,",
+    "generated_summary": ", 0, 0, 1, 1, 1, 0, NULL, 8, 8, NULL, 1, NULL, 2, 1, NULL, 0.2043, 8900.00, 8900.00,",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 558,
+    "original_remarks": "Welcome home to your completely remodeled entertainer's dream with resort-style backyard! This beautifully remodeled four-bedroom, two-bath home showcases an open floor plan and modern finishes throughout. Enter into the spacious great room that flows into the large, upgraded kitchen featuring an expansive island with counter seating and custom beverage bar in the dining area, great for entertaining guests. Step outside the great room to your own private paradise featuring a sparkling pool with ",
+    "generated_summary": "Welcome home to your completely remodeled entertainer's dream with resort-style backyard! Step outside the great room to your own private paradise featuring a sparkling pool with a relaxing Baja shelf, waterfall feature, and color-changing lights.",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [
+      "pool",
+      "spa"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 89,
+    "original_remarks": ", 0, NULL, 1, 1, 1, NULL, NULL, 186, 186, NULL, NULL, NULL, NULL, NULL, 425000, 12.3700, 538837.00, 538837.00,",
+    "generated_summary": ", 0, NULL, 1, 1, 1, NULL, NULL, 186, 186, NULL, NULL, NULL, NULL, NULL, 425000, 12.3700, 538837.00, 538837.00,",
+    "beds": null,
+    "baths": null,
+    "price": 425000,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 604,
+    "original_remarks": "Welcome to this beautiful corner-lot home in Northwest Bakersfield, ideally located near top-rated schools. This spacious property offers 4 bedrooms, 2 bathrooms, and a dedicated office perfect for work or study. Enjoy a stylish kitchen with granite countertops, a cozy breakfast area, and an open layout designed for comfortable living. Additional highlights include an indoor laundry room, a 2-car garage, and a generous backyard featuring a private covered patio great for relaxing or entertaining",
+    "generated_summary": "Welcome to this beautiful corner-lot home in Northwest Bakersfield, ideally located near top-rated schools. Additional highlights include an indoor laundry room, a 2-car garage, and a generous backyard featuring a private covered patio great for relaxing or entertaining.",
+    "beds": 4,
+    "baths": 2.0,
+    "price": null,
+    "top_features": [
+      "garage",
+      "spa"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 432,
+    "original_remarks": "This towering three-story townhome is set within a serene community, fronting a large grassy courtyard and featuring a convenient clubhouse ideal for relaxing or socializing. Enjoy a walkable lifestyle with several nearby parks, including the new Magical Bridge Playground and just a few miles from downtown Sunnyvale with its weekly farmers market and Caltrain connection. Upon entry, laminate flooring leads you to a versatile ground-level office, a half bath, and direct access to the two-car gara",
+    "generated_summary": "This towering three-story townhome is set within a serene community, fronting a large grassy courtyard and featuring a convenient clubhouse ideal for relaxing or socializing. The second level offers an airy open floor plan with high ceilings and recessed lighting, featuring a sun-filled living room with access to a private balcony overlooking the greenbelt, a dining area, and a beautifully appointed kitchen with quartz countertops, center island, extensive cabinetry, a massive pantry, and an additional half bath.",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [
+      "garage",
+      "spa"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 32,
+    "original_remarks": "Barbecue,ConvectionOven,Dishwasher,GasCooktop,GasWaterHeater,Microwave,Refrigerator,WaterSoftener,WaterPurifier,Dryer,Washer",
+    "generated_summary": "Barbecue,ConvectionOven,Dishwasher,GasCooktop,GasWaterHeater,Microwave,Refrigerator,WaterSoftener,WaterPurifier,Dryer,Washer",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 30,
+    "original_remarks": ", 1, 0, 1, 1, 1, 1, 0, 64, NULL, 1, NULL, 0, 3, 1, 629900, NULL, NULL, NULL,",
+    "generated_summary": ", 1, 0, 1, 1, 1, 1, 0, 64, NULL, 1, NULL, 0, 3, 1, 629900, NULL, NULL, NULL,",
+    "beds": null,
+    "baths": null,
+    "price": 629900,
+    "top_features": [],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  },
+  {
+    "listing_id": 95,
+    "original_remarks": "Curbs,Golf,StormDrains,StreetLights,Suburban,Sidewalks,Gated,Park",
+    "generated_summary": "Curbs,Golf,StormDrains,StreetLights,Suburban,Sidewalks,Gated,Park",
+    "beds": null,
+    "baths": null,
+    "price": null,
+    "top_features": [
+      "gated"
+    ],
+    "rating": null,
+    "completeness": null,
+    "accuracy": null,
+    "feedback": null
+  }
+]

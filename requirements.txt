@@ -7,3 +7,5 @@ matplotlib
 seaborn
 pytest
 scikit-learn
+nltk
+rouge-score

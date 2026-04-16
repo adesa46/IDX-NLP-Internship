@@ -1,0 +1,170 @@
+{
+  "total_listings": 1000,
+  "coverage": {
+    "total_listings": 1000,
+    "with_summary_pct": 100.0,
+    "with_beds_pct": 12.6,
+    "with_baths_pct": 11.1,
+    "with_price_pct": 21.4,
+    "with_features_pct": 50.5,
+    "with_location_pct": 19.0
+  },
+  "rouge_scores": {
+    "rouge1": 0.767,
+    "rouge2": 0.7269,
+    "rougeL": 0.759
+  },
+  "rouge_eval_count": 200,
+  "rouge_l_target_met": true,
+  "human_eval_count": 20,
+  "answerability_demo": [
+    {
+      "query": "3 bed house in Portland under 500k",
+      "answerable": true,
+      "message": "Query is answerable.",
+      "expected": true,
+      "correct": true
+    },
+    {
+      "query": "homes with pool near good schools",
+      "answerable": true,
+      "message": "Query is answerable.",
+      "expected": true,
+      "correct": true
+    },
+    {
+      "query": "What's the weather like today?",
+      "answerable": false,
+      "message": "This doesn't appear to be a real estate question.",
+      "expected": false,
+      "correct": true
+    },
+    {
+      "query": "Tell me a joke",
+      "answerable": false,
+      "message": "This doesn't appear to be a real estate question.",
+      "expected": false,
+      "correct": true
+    },
+    {
+      "query": "condo in Atlantis",
+      "answerable": true,
+      "message": "Query is answerable.",
+      "expected": false,
+      "correct": false
+    },
+    {
+      "query": "2 bath property with garage",
+      "answerable": true,
+      "message": "Query is answerable.",
+      "expected": true,
+      "correct": true
+    }
+  ],
+  "answerability_accuracy": 0.8333,
+  "sample_summaries": [
+    {
+      "listing_id": 0,
+      "summary": "FamilyRoom,GuestQuarters,GreatRoom,LivingRoom,Office,Other,DiningRoom",
+      "beds": null,
+      "baths": null,
+      "price": null,
+      "top_features": [],
+      "location": null
+    },
+    {
+      "listing_id": 1,
+      "summary": "Balcony,CeilingFans,CrownMolding,LaminateCounters,OpenFloorplan,RecessedLighting,AllBedroomsUp",
+      "beds": null,
+      "baths": null,
+      "price": null,
+      "top_features": [
+        "balcony"
+      ],
+      "location": null
+    },
+    {
+      "listing_id": 2,
+      "summary": "Welcome to this beautiful two-story West Lancaster pool home, located in a highly desirable, upscale neighborhood\u2014offering the perfect blend of comfort, functionality, and modern efficiency! Enjoy tru",
+      "beds": null,
+      "baths": null,
+      "price": 60000,
+      "top_features": [
+        "pool",
+        "spa"
+      ],
+      "location": "located in a highly desirable"
+    },
+    {
+      "listing_id": 3,
+      "summary": "#48 DESERT SHORES RESORTLowest Priced in Desert Shores Motorcoach Resort.Lovely location on Lake 2 with fountain, gentle waterfall and mountain views.Lots of outdoor entertaining space and villa with ",
+      "beds": null,
+      "baths": null,
+      "price": null,
+      "top_features": [
+        "spa",
+        "view"
+      ],
+      "location": null
+    },
+    {
+      "listing_id": 4,
+      "summary": "Welcome to 25006 Pine Creek Loop, a beautifully upgraded corner lot home nestled in the desirable community of Sycamore Creek located in Temescal Valley. This luxurious 4 bedroom, 3.5 bath home featur",
+      "beds": 4,
+      "baths": 3.5,
+      "price": 25006,
+      "top_features": [
+        "fireplace",
+        "quartz"
+      ],
+      "location": "located in temescal valley"
+    },
+    {
+      "listing_id": 5,
+      "summary": "Cash,CashToNewLoan,Conventional,Exchange1031,FHA,FannieMae,FreddieMac",
+      "beds": null,
+      "baths": null,
+      "price": null,
+      "top_features": [],
+      "location": null
+    },
+    {
+      "listing_id": 6,
+      "summary": "Cash,CashToExistingLoan,CashToNewLoan,Conventional,Contract,Exchange1031",
+      "beds": null,
+      "baths": null,
+      "price": null,
+      "top_features": [],
+      "location": null
+    },
+    {
+      "listing_id": 7,
+      "summary": "BreakfastBar,Balcony,HighCeilings,Pantry,StoneCounters,BedroomOnMainLevel,MainLevelPrimary,PrimarySuite,WalkInClosets",
+      "beds": null,
+      "baths": null,
+      "price": null,
+      "top_features": [
+        "balcony"
+      ],
+      "location": null
+    },
+    {
+      "listing_id": 8,
+      "summary": "BonusRoom,EntryFoyer,Kitchen,Laundry,LivingRoom,PrimaryBathroom,PrimaryBedroom,Office,Other,Sunroom,DiningRoom",
+      "beds": null,
+      "baths": null,
+      "price": null,
+      "top_features": [],
+      "location": null
+    },
+    {
+      "listing_id": 9,
+      "summary": ", 0, NULL, 1, 1, 1, 0, 1, 281, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9.8100, 427323.00, 427323.00,",
+      "beds": null,
+      "baths": null,
+      "price": 427323,
+      "top_features": [],
+      "location": null
+    }
+  ]
+}
