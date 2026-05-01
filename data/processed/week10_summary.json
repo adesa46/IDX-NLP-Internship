@@ -1,0 +1,262 @@
+{
+  "total_endpoints": 8,
+  "all_endpoints_ok": true,
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/health",
+      "status_code": 200,
+      "response_time_ms": 2.5
+    },
+    {
+      "method": "POST",
+      "path": "/parse-query",
+      "status_code": 200,
+      "response_time_ms": 2.6
+    },
+    {
+      "method": "POST",
+      "path": "/extract-entities",
+      "status_code": 200,
+      "response_time_ms": 3.2
+    },
+    {
+      "method": "POST",
+      "path": "/summarize",
+      "status_code": 200,
+      "response_time_ms": 5.2
+    },
+    {
+      "method": "POST",
+      "path": "/check-compliance",
+      "status_code": 200,
+      "response_time_ms": 1.5
+    },
+    {
+      "method": "POST",
+      "path": "/classify-intent",
+      "status_code": 200,
+      "response_time_ms": 2.1
+    },
+    {
+      "method": "POST",
+      "path": "/extract-signals",
+      "status_code": 200,
+      "response_time_ms": 4.6
+    },
+    {
+      "method": "GET",
+      "path": "/api-stats",
+      "status_code": 200,
+      "response_time_ms": 0.9
+    }
+  ],
+  "sample_responses": {
+    "/health": {
+      "status": "healthy",
+      "uptime_seconds": 1.34,
+      "search_available": false,
+      "endpoints_available": [
+        "/api-stats",
+        "/check-compliance",
+        "/classify-intent",
+        "/extract-entities",
+        "/extract-signals",
+        "/health",
+        "/parse-query",
+        "/summarize"
+      ]
+    },
+    "/parse-query": {
+      "query": "3 bed in Portland under 500k",
+      "filters": {
+        "price_max": 500000,
+        "bedrooms": 3,
+        "city": "portland"
+      },
+      "sql": "SELECT * FROM rets_property WHERE L_SystemPrice <= %s AND L_Keyword2 = %s AND L_City = %s",
+      "params": [
+        500000,
+        3,
+        "portland"
+      ],
+      "valid": true,
+      "validation_errors": [],
+      "cached": false
+    },
+    "/extract-entities": {
+      "text": "Beautiful 3 bedroom, 2.5 bath home with 2,500 sqft. $1,250,000.",
+      "entities": {
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "price": 1250000,
+        "sqft": 2500,
+        "amenities": []
+      },
+      "cached": false
+    },
+    "/summarize": {
+      "text": "Beautiful 3 bedroom, 2 bath home with sparkling pool. Updated kitchen with granite countertops and stainless steel appliances. Large backyard perfect for entertaining friends and family. Close to top-rated schools and parks.",
+      "summary": "Beautiful 3 bedroom, 2 bath home with sparkling pool. Updated kitchen with granite countertops and stainless steel appliances.",
+      "beds": 3,
+      "baths": 2.0,
+      "price": null,
+      "sqft": null,
+      "top_features": [
+        "pool",
+        "spa"
+      ],
+      "location": "close to top-rated schools and parks",
+      "cached": false
+    },
+    "/check-compliance": {
+      "text": "Beautiful 4 bed, 3 bath home with pool. Near top schools. $599,000.",
+      "compliant": true,
+      "violations": [],
+      "stats": {
+        "error": 0,
+        "warning": 0,
+        "info": 0
+      },
+      "cached": false
+    },
+    "/classify-intent": {
+      "query": "3 bed 2 bath under 500k in Portland with pool",
+      "intent": "ready_to_buy",
+      "confidence": 0.818,
+      "probabilities": {
+        "browsing": 0.1036,
+        "ready_to_buy": 0.818,
+        "researching": 0.0784
+      },
+      "cached": false
+    },
+    "/extract-signals": {
+      "text": "Updated 3 bed home with pool and hardwood floors. Near schools. FHA approved. Corner lot in quiet cul-de-sac.",
+      "entities": {
+        "bedrooms": 3,
+        "bathrooms": null,
+        "price": null,
+        "sqft": null,
+        "amenities": [
+          "pool"
+        ]
+      },
+      "amenities": [
+        "corner lot",
+        "lot",
+        "pool"
+      ],
+      "condition_keywords": [
+        "updated"
+      ],
+      "financing_terms": [
+        "fha"
+      ],
+      "location_features": [
+        "corner lot",
+        "cul-de-sac",
+        "near schools",
+        "quiet cul"
+      ],
+      "cached": false
+    },
+    "/api-stats": {
+      "uptime_seconds": 1.36,
+      "total_requests": 8,
+      "cache_size": 6,
+      "cache_hits": 0,
+      "cache_misses": 6,
+      "cache_hit_rate": 0.0,
+      "search_available": false
+    }
+  },
+  "cache_results": {
+    "first_call_cached": false,
+    "second_call_cached": true,
+    "cache_working": true
+  },
+  "rate_limit_results": {
+    "requests_sent": 15,
+    "requests_passed": 10,
+    "requests_blocked": 5,
+    "rate_limiting_working": true
+  },
+  "compliance_demos": [
+    {
+      "label": "Clean listing",
+      "text": "Beautiful 4 bed, 3 bath home with pool. Near top schools. $599,000.",
+      "compliant": true,
+      "num_violations": 0,
+      "stats": {
+        "error": 0,
+        "warning": 0,
+        "info": 0
+      }
+    },
+    {
+      "label": "Familial violation",
+      "text": "No children allowed. Adults only community.",
+      "compliant": false,
+      "num_violations": 2,
+      "stats": {
+        "error": 2,
+        "warning": 0,
+        "info": 0
+      }
+    },
+    {
+      "label": "Disability violation",
+      "text": "Must be able-bodied. No wheelchairs.",
+      "compliant": false,
+      "num_violations": 3,
+      "stats": {
+        "error": 3,
+        "warning": 0,
+        "info": 0
+      }
+    },
+    {
+      "label": "Race violation",
+      "text": "Located in a white neighborhood.",
+      "compliant": false,
+      "num_violations": 1,
+      "stats": {
+        "error": 1,
+        "warning": 0,
+        "info": 0
+      }
+    },
+    {
+      "label": "Multi-violation",
+      "text": "No children. Must be able-bodied. English only. White community.",
+      "compliant": false,
+      "num_violations": 5,
+      "stats": {
+        "error": 5,
+        "warning": 0,
+        "info": 0
+      }
+    }
+  ],
+  "final_stats": {
+    "uptime_seconds": 1.38,
+    "total_requests": 31,
+    "cache_size": 16,
+    "cache_hits": 1,
+    "cache_misses": 22,
+    "cache_hit_rate": 0.0435,
+    "search_available": false
+  },
+  "openapi_paths": [
+    "/health",
+    "/search",
+    "/parse-query",
+    "/extract-entities",
+    "/summarize",
+    "/check-compliance",
+    "/classify-intent",
+    "/extract-signals",
+    "/api-stats"
+  ]
+}

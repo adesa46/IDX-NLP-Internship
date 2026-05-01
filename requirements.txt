@@ -9,3 +9,6 @@ pytest
 scikit-learn
 nltk
 rouge-score
+fastapi
+uvicorn[standard]
+cachetools

@@ -19,5 +19,16 @@ services:
     working_dir: /app
     command: ["python", "-m", "pytest", "tests/test_week5.py", "-v"]
 
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["uvicorn", "scripts.api_app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+    depends_on:
+      - mysql
+
 volumes:
   mysql_data:

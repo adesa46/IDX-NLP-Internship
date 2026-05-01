@@ -14,5 +14,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy project files
 COPY . .
 
-# Default command
-CMD ["python", "-m", "pytest", "tests/", "-v"]
+# Expose API port
+EXPOSE 8000
+
+# Default: serve the FastAPI application
+CMD ["uvicorn", "scripts.api_app:app", "--host", "0.0.0.0", "--port", "8000"]
