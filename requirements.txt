@@ -12,3 +12,6 @@ rouge-score
 fastapi
 uvicorn[standard]
 cachetools
+streamlit
+pydantic
+requests
