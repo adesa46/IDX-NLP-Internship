@@ -83,6 +83,21 @@ pip install -r requirements.txt
 python -c "import nltk; nltk.download('punkt')"
 ```
 
+### Run App Locally (Without Docker)
+
+You will need two separate terminal windows.
+
+**Terminal 1 (Backend API):**
+```bash
+python -m uvicorn scripts.api_app:app --reload
+```
+
+**Terminal 2 (Web UI):**
+```bash
+streamlit run scripts/streamlit_app.py
+```
+Access the Web UI at http://localhost:8501 and API docs at http://localhost:8000/docs.
+
 ### Docker Setup
 
 ```bash
