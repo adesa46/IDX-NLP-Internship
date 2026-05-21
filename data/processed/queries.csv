@@ -1,0 +1,61 @@
+query,intent
+Looking for a 4 bed 1 bath near good schools,Search
+I want a condo with a pool,Search
+Exclude homes without a master suite,Filter
+I want a single family with a pool,Search
+Show me houses under $750k,Search
+Compare townhouses in the suburbs vs the city center,Compare
+I want a condo with a large backyard,Search
+I want a townhouse with a large backyard,Search
+Sort by lowest price first,Filter
+Compare single familys in uptown vs the hills,Compare
+Compare single familys in the suburbs vs the hills,Compare
+Only show properties with a garage,Filter
+Exclude homes without a dining room,Filter
+Show me houses under $500k,Search
+Find me a colonial home in the valley,Search
+I want a townhouse with a garage,Search
+Looking for a 3 bed 2 bath near the park,Search
+Looking for a 3 bed 1 bath near good schools,Search
+Show me houses under $900k,Search
+Find me a modern home in the valley,Search
+Find me a colonial home in downtown,Search
+Only show properties with a pool,Filter
+Find me a contemporary home in uptown,Search
+Find me a ranch home in the valley,Search
+Compare townhouses in downtown vs the city center,Compare
+Sort by newest listings,Filter
+Find me a contemporary home in downtown,Search
+I want a single family with a updated kitchen,Search
+Sort by largest lot size,Filter
+I want a single family with a large backyard,Search
+Looking for a 4 bed 3 bath near good schools,Search
+Compare single familys in the valley vs the hills,Compare
+Find me a modern home in the suburbs,Search
+Looking for a 3 bed 1 bath near the park,Search
+I want a condo with a updated kitchen,Search
+Only show properties with a large backyard,Filter
+Show me houses under $300k,Search
+Exclude homes without a walk in closet,Filter
+Find me a colonial home in the suburbs,Search
+Looking for a 4 bed 1 bath near shopping centers,Search
+Find me a colonial home in uptown,Search
+Looking for a 4 bed 2 bath near good schools,Search
+Looking for a 5 bed 3 bath near shopping centers,Search
+I want a townhouse with a pool,Search
+Looking for a 4 bed 3 bath near the park,Search
+Find me a ranch home in the suburbs,Search
+Find me a contemporary home in the suburbs,Search
+Compare single familys in downtown vs the beach,Compare
+Looking for a 2 bed 3 bath near shopping centers,Search
+Looking for a 2 bed 2 bath near good schools,Search
+Looking for a 4 bed 2 bath near shopping centers,Search
+Looking for a 3 bed 2 bath near shopping centers,Search
+Looking for a 5 bed 2 bath near good schools,Search
+What's the price difference between 2 bed and 3 bed homes?,Compare
+Find me a contemporary home in the valley,Search
+Looking for a 2 bed 2 bath near shopping centers,Search
+Looking for a 5 bed 3 bath near the park,Search
+Find me a modern home in uptown,Search
+What's the price difference between 4 bed and 6 bed homes?,Compare
+Compare single familys in the valley vs the beach,Compare

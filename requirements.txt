@@ -1,0 +1,17 @@
+sentence-transformers
+faiss-cpu
+rank_bm25
+numpy
+pandas
+matplotlib
+seaborn
+pytest
+scikit-learn
+nltk
+rouge-score
+fastapi
+uvicorn[standard]
+cachetools
+streamlit
+pydantic
+requests

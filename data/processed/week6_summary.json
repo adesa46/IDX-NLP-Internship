@@ -1,0 +1,68 @@
+{
+  "coverage": {
+    "total_listings": 1000,
+    "bedrooms_pct": 12.6,
+    "bathrooms_pct": 11.1,
+    "price_pct": 19.8,
+    "sqft_pct": 6.6,
+    "amenities_pct": 51.6,
+    "condition_pct": 21.1,
+    "financing_pct": 6.4,
+    "location_pct": 23.9,
+    "any_entity_pct": 34.6,
+    "any_signal_pct": 54.3
+  },
+  "top_amenities": {
+    "living": 249,
+    "kitchen": 248,
+    "bedroom": 209,
+    "space": 170,
+    "bedrooms": 155,
+    "open": 150,
+    "dining": 146,
+    "garage": 146,
+    "pool": 144,
+    "bathroom": 132,
+    "bath": 126,
+    "access": 116,
+    "laundry": 104,
+    "car garage": 99,
+    "suite": 96
+  },
+  "top_condition": {
+    "updated": 70,
+    "remodeled": 52,
+    "upgraded": 48,
+    "move-in ready": 26,
+    "turnkey": 23,
+    "renovated": 22,
+    "well-maintained": 19,
+    "brand new": 17,
+    "freshly painted": 12,
+    "new flooring": 11
+  },
+  "top_financing": {
+    "hoa": 42,
+    "fha": 14,
+    "cash": 13,
+    "conventional": 11,
+    "low hoa": 7,
+    "exchange1031": 6,
+    "no hoa": 6,
+    "va": 5,
+    "freddiemac": 4,
+    "mello-roos": 3
+  },
+  "top_location": {
+    "views": 103,
+    "gated": 57,
+    "gated community": 28,
+    "cul-de-sac": 19,
+    "view": 17,
+    "golf course": 14,
+    "corner lot": 12,
+    "walking distance": 12,
+    "golfcourse": 11,
+    "walk to": 10
+  }
+}

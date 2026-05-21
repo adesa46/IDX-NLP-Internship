@@ -1,0 +1,897 @@
+{
+  "num_demo_queries": 8,
+  "pipeline_results": [
+    {
+      "query": "3 bed 2 bath under 700k in Irvine",
+      "steps": {
+        "parse": {
+          "query": "3 bed 2 bath under 700k in Irvine",
+          "filters": {
+            "price_max": 700000,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "city": "irvine"
+          },
+          "sql": "SELECT * FROM rets_property WHERE L_SystemPrice <= %s AND L_Keyword2 = %s AND L_Keyword3 = %s AND L_City = %s",
+          "params": [
+            700000,
+            3,
+            2,
+            "irvine"
+          ],
+          "valid": true,
+          "validation_errors": [],
+          "cached": false
+        },
+        "intent": {
+          "query": "3 bed 2 bath under 700k in Irvine",
+          "intent": "ready_to_buy",
+          "confidence": 0.869,
+          "probabilities": {
+            "browsing": 0.0731,
+            "ready_to_buy": 0.869,
+            "researching": 0.058
+          },
+          "cached": false
+        },
+        "search": null,
+        "summarize": {
+          "text": "Beautiful 3 bedroom, 2 bath home with sparkling pool. Updated kitchen with granite countertops and stainless steel appliances. Large backyard perfect for entertaining. Close to top-rated schools and parks. $650,000.",
+          "summary": "Beautiful 3 bedroom, 2 bath home with sparkling pool. Updated kitchen with granite countertops and stainless steel appliances.",
+          "beds": 3,
+          "baths": 2.0,
+          "price": 650000,
+          "sqft": null,
+          "top_features": [
+            "pool",
+            "spa"
+          ],
+          "location": "close to top-rated schools and parks",
+          "cached": false
+        },
+        "compliance": {
+          "text": "Beautiful 3 bedroom, 2 bath home with sparkling pool. Updated kitchen with granite countertops and stainless steel appliances. Large backyard perfect for entertaining. Close to top-rated schools and parks. $650,000.",
+          "compliant": true,
+          "violations": [],
+          "stats": {
+            "error": 0,
+            "warning": 0,
+            "info": 0
+          },
+          "cached": false
+        },
+        "signals": {
+          "text": "Beautiful 3 bedroom, 2 bath home with sparkling pool. Updated kitchen with granite countertops and stainless steel appliances. Large backyard perfect for entertaining. Close to top-rated schools and parks. $650,000.",
+          "entities": {
+            "bedrooms": 3,
+            "bathrooms": 2.0,
+            "price": 650000,
+            "sqft": null,
+            "amenities": [
+              "sparkling pool",
+              "sparkling",
+              "backyard",
+              "pool"
+            ]
+          },
+          "amenities": [
+            "backyard",
+            "bath",
+            "bedroom",
+            "kitchen",
+            "pool",
+            "sparkling",
+            "sparkling pool"
+          ],
+          "condition_keywords": [
+            "updated"
+          ],
+          "financing_terms": [],
+          "location_features": [],
+          "cached": false
+        }
+      },
+      "latencies": {
+        "parse": 3.8,
+        "intent": 2.0,
+        "search": 1.0,
+        "summarize": 6.3,
+        "compliance": 1.2,
+        "signals": 5.3
+      },
+      "total_latency_ms": 19.6
+    },
+    {
+      "query": "modern condo with pool near schools",
+      "steps": {
+        "parse": {
+          "query": "modern condo with pool near schools",
+          "filters": {
+            "property_type": "condo",
+            "style": "modern",
+            "amenity": "pool"
+          },
+          "sql": "SELECT * FROM rets_property WHERE L_Type_ = %s AND L_Remarks LIKE %s AND L_Remarks LIKE %s",
+          "params": [
+            "condo",
+            "%modern%",
+            "%pool%"
+          ],
+          "valid": true,
+          "validation_errors": [],
+          "cached": false
+        },
+        "intent": {
+          "query": "modern condo with pool near schools",
+          "intent": "ready_to_buy",
+          "confidence": 0.4962,
+          "probabilities": {
+            "browsing": 0.2399,
+            "ready_to_buy": 0.4962,
+            "researching": 0.264
+          },
+          "cached": false
+        },
+        "search": null,
+        "summarize": {
+          "text": "Stunning modern condo with community pool. 2 bed, 2 bath, 1200 sqft. Walking distance to shopping and restaurants. Near award-winning schools. HOA includes water and trash. $450,000.",
+          "summary": "Stunning modern condo with community pool. 2 bed, 2 bath, 1200 sqft.",
+          "beds": 2,
+          "baths": 2.0,
+          "price": 450000,
+          "sqft": 1200,
+          "top_features": [
+            "pool"
+          ],
+          "location": "walking distance to shopping and restaurants",
+          "cached": false
+        },
+        "compliance": {
+          "text": "Stunning modern condo with community pool. 2 bed, 2 bath, 1200 sqft. Walking distance to shopping and restaurants. Near award-winning schools. HOA includes water and trash. $450,000.",
+          "compliant": true,
+          "violations": [],
+          "stats": {
+            "error": 0,
+            "warning": 0,
+            "info": 0
+          },
+          "cached": false
+        },
+        "signals": {
+          "text": "Stunning modern condo with community pool. 2 bed, 2 bath, 1200 sqft. Walking distance to shopping and restaurants. Near award-winning schools. HOA includes water and trash. $450,000.",
+          "entities": {
+            "bedrooms": 2,
+            "bathrooms": 2.0,
+            "price": 450000,
+            "sqft": 1200,
+            "amenities": [
+              "community pool",
+              "pool"
+            ]
+          },
+          "amenities": [
+            "bath",
+            "community pool",
+            "pool"
+          ],
+          "condition_keywords": [],
+          "financing_terms": [
+            "hoa"
+          ],
+          "location_features": [
+            "walking distance"
+          ],
+          "cached": false
+        }
+      },
+      "latencies": {
+        "parse": 2.4,
+        "intent": 1.5,
+        "search": 0.7,
+        "summarize": 2.8,
+        "compliance": 1.0,
+        "signals": 4.5
+      },
+      "total_latency_ms": 12.9
+    },
+    {
+      "query": "spacious home with large backyard and garage",
+      "steps": {
+        "parse": {
+          "query": "spacious home with large backyard and garage",
+          "filters": {
+            "amenity": "large backyard"
+          },
+          "sql": "SELECT * FROM rets_property WHERE L_Remarks LIKE %s",
+          "params": [
+            "%large backyard%"
+          ],
+          "valid": true,
+          "validation_errors": [],
+          "cached": false
+        },
+        "intent": {
+          "query": "spacious home with large backyard and garage",
+          "intent": "ready_to_buy",
+          "confidence": 0.6319,
+          "probabilities": {
+            "browsing": 0.1936,
+            "ready_to_buy": 0.6319,
+            "researching": 0.1745
+          },
+          "cached": false
+        },
+        "search": null,
+        "summarize": {
+          "text": "Spacious 4 bedroom home on a large lot with mature trees. Oversized 2-car garage with workshop space. Hardwood floors throughout. Open floor plan with vaulted ceilings. $525,000.",
+          "summary": "Spacious 4 bedroom home on a large lot with mature trees. Oversized 2-car garage with workshop space.",
+          "beds": 4,
+          "baths": null,
+          "price": 525000,
+          "sqft": null,
+          "top_features": [
+            "garage",
+            "spa"
+          ],
+          "location": null,
+          "cached": false
+        },
+        "compliance": {
+          "text": "Spacious 4 bedroom home on a large lot with mature trees. Oversized 2-car garage with workshop space. Hardwood floors throughout. Open floor plan with vaulted ceilings. $525,000.",
+          "compliant": true,
+          "violations": [],
+          "stats": {
+            "error": 0,
+            "warning": 0,
+            "info": 0
+          },
+          "cached": false
+        },
+        "signals": {
+          "text": "Spacious 4 bedroom home on a large lot with mature trees. Oversized 2-car garage with workshop space. Hardwood floors throughout. Open floor plan with vaulted ceilings. $525,000.",
+          "entities": {
+            "bedrooms": 4,
+            "bathrooms": null,
+            "price": 525000,
+            "sqft": null,
+            "amenities": [
+              "car garage",
+              "garage",
+              "space"
+            ]
+          },
+          "amenities": [
+            "bedroom",
+            "car garage",
+            "floor plan",
+            "garage",
+            "lot",
+            "open",
+            "open floor",
+            "open floor plan",
+            "space"
+          ],
+          "condition_keywords": [],
+          "financing_terms": [],
+          "location_features": [],
+          "cached": false
+        }
+      },
+      "latencies": {
+        "parse": 1.7,
+        "intent": 1.3,
+        "search": 0.8,
+        "summarize": 3.4,
+        "compliance": 1.0,
+        "signals": 4.4
+      },
+      "total_latency_ms": 12.6
+    },
+    {
+      "query": "waterfront property with ocean views",
+      "steps": {
+        "parse": {
+          "query": "waterfront property with ocean views",
+          "filters": {},
+          "sql": "SELECT * FROM rets_property",
+          "params": [],
+          "valid": true,
+          "validation_errors": [],
+          "cached": false
+        },
+        "intent": {
+          "query": "waterfront property with ocean views",
+          "intent": "ready_to_buy",
+          "confidence": 0.616,
+          "probabilities": {
+            "browsing": 0.2296,
+            "ready_to_buy": 0.616,
+            "researching": 0.1544
+          },
+          "cached": false
+        },
+        "search": null,
+        "summarize": {
+          "text": "Gorgeous waterfront property with panoramic ocean views. 3 bed, 3 bath, 2800 sqft. Private balcony off master suite. Updated throughout with designer finishes. $1,250,000.",
+          "summary": "Gorgeous waterfront property with panoramic ocean views. 3 bed, 3 bath, 2800 sqft.",
+          "beds": 3,
+          "baths": 3.0,
+          "price": 1250000,
+          "sqft": 2800,
+          "top_features": [
+            "updated",
+            "view"
+          ],
+          "location": null,
+          "cached": false
+        },
+        "compliance": {
+          "text": "Gorgeous waterfront property with panoramic ocean views. 3 bed, 3 bath, 2800 sqft. Private balcony off master suite. Updated throughout with designer finishes. $1,250,000.",
+          "compliant": true,
+          "violations": [],
+          "stats": {
+            "error": 0,
+            "warning": 0,
+            "info": 0
+          },
+          "cached": false
+        },
+        "signals": {
+          "text": "Gorgeous waterfront property with panoramic ocean views. 3 bed, 3 bath, 2800 sqft. Private balcony off master suite. Updated throughout with designer finishes. $1,250,000.",
+          "entities": {
+            "bedrooms": 3,
+            "bathrooms": 3.0,
+            "price": 1250000,
+            "sqft": 2800,
+            "amenities": []
+          },
+          "amenities": [
+            "balcony",
+            "bath",
+            "master",
+            "master suite",
+            "suite"
+          ],
+          "condition_keywords": [
+            "updated"
+          ],
+          "financing_terms": [],
+          "location_features": [
+            "views",
+            "waterfront"
+          ],
+          "cached": false
+        }
+      },
+      "latencies": {
+        "parse": 1.6,
+        "intent": 1.3,
+        "search": 0.6,
+        "summarize": 3.5,
+        "compliance": 0.8,
+        "signals": 4.4
+      },
+      "total_latency_ms": 12.2
+    },
+    {
+      "query": "4 bed house with updated kitchen under 500k",
+      "steps": {
+        "parse": {
+          "query": "4 bed house with updated kitchen under 500k",
+          "filters": {
+            "price_max": 500000,
+            "bedrooms": 4,
+            "amenity": "updated kitchen"
+          },
+          "sql": "SELECT * FROM rets_property WHERE L_SystemPrice <= %s AND L_Keyword2 = %s AND L_Remarks LIKE %s",
+          "params": [
+            500000,
+            4,
+            "%updated kitchen%"
+          ],
+          "valid": true,
+          "validation_errors": [],
+          "cached": false
+        },
+        "intent": {
+          "query": "4 bed house with updated kitchen under 500k",
+          "intent": "ready_to_buy",
+          "confidence": 0.7659,
+          "probabilities": {
+            "browsing": 0.1312,
+            "ready_to_buy": 0.7659,
+            "researching": 0.1029
+          },
+          "cached": false
+        },
+        "search": null,
+        "summarize": {
+          "text": "Charming 4 bed, 2.5 bath family home with updated kitchen featuring quartz countertops and stainless steel appliances. New roof and HVAC. Corner lot in quiet cul-de-sac. $485,000.",
+          "summary": "Charming 4 bed, 2.5 bath family home with updated kitchen featuring quartz countertops and stainless steel appliances. New roof and HVAC.",
+          "beds": 4,
+          "baths": 2.5,
+          "price": 485000,
+          "sqft": null,
+          "top_features": [
+            "quartz",
+            "stainless"
+          ],
+          "location": null,
+          "cached": false
+        },
+        "compliance": {
+          "text": "Charming 4 bed, 2.5 bath family home with updated kitchen featuring quartz countertops and stainless steel appliances. New roof and HVAC. Corner lot in quiet cul-de-sac. $485,000.",
+          "compliant": true,
+          "violations": [],
+          "stats": {
+            "error": 0,
+            "warning": 0,
+            "info": 0
+          },
+          "cached": false
+        },
+        "signals": {
+          "text": "Charming 4 bed, 2.5 bath family home with updated kitchen featuring quartz countertops and stainless steel appliances. New roof and HVAC. Corner lot in quiet cul-de-sac. $485,000.",
+          "entities": {
+            "bedrooms": 4,
+            "bathrooms": 2.5,
+            "price": 485000,
+            "sqft": null,
+            "amenities": [
+              "hvac"
+            ]
+          },
+          "amenities": [
+            "bath",
+            "corner lot",
+            "hvac",
+            "kitchen",
+            "kitchen featuring",
+            "lot"
+          ],
+          "condition_keywords": [
+            "new roof",
+            "updated"
+          ],
+          "financing_terms": [],
+          "location_features": [
+            "corner lot",
+            "cul-de-sac",
+            "quiet cul"
+          ],
+          "cached": false
+        }
+      },
+      "latencies": {
+        "parse": 1.9,
+        "intent": 1.3,
+        "search": 0.7,
+        "summarize": 2.9,
+        "compliance": 0.9,
+        "signals": 4.5
+      },
+      "total_latency_ms": 12.2
+    },
+    {
+      "query": "quiet neighborhood family home with fireplace",
+      "steps": {
+        "parse": {
+          "query": "quiet neighborhood family home with fireplace",
+          "filters": {},
+          "sql": "SELECT * FROM rets_property",
+          "params": [],
+          "valid": true,
+          "validation_errors": [],
+          "cached": false
+        },
+        "intent": {
+          "query": "quiet neighborhood family home with fireplace",
+          "intent": "ready_to_buy",
+          "confidence": 0.5967,
+          "probabilities": {
+            "browsing": 0.2288,
+            "ready_to_buy": 0.5967,
+            "researching": 0.1745
+          },
+          "cached": false
+        },
+        "search": null,
+        "summarize": {
+          "text": "Quiet neighborhood gem! 3 bed, 2 bath with cozy fireplace in living room. Covered patio and mature landscaping. Near parks and hiking trails. $395,000.",
+          "summary": "Quiet neighborhood gem! 3 bed, 2 bath with cozy fireplace in living room.",
+          "beds": 3,
+          "baths": 2.0,
+          "price": 395000,
+          "sqft": null,
+          "top_features": [
+            "fireplace",
+            "patio"
+          ],
+          "location": "near parks and hiking trails",
+          "cached": false
+        },
+        "compliance": {
+          "text": "Quiet neighborhood gem! 3 bed, 2 bath with cozy fireplace in living room. Covered patio and mature landscaping. Near parks and hiking trails. $395,000.",
+          "compliant": true,
+          "violations": [],
+          "stats": {
+            "error": 0,
+            "warning": 0,
+            "info": 0
+          },
+          "cached": false
+        },
+        "signals": {
+          "text": "Quiet neighborhood gem! 3 bed, 2 bath with cozy fireplace in living room. Covered patio and mature landscaping. Near parks and hiking trails. $395,000.",
+          "entities": {
+            "bedrooms": 3,
+            "bathrooms": 2.0,
+            "price": 395000,
+            "sqft": null,
+            "amenities": [
+              "cozy fireplace",
+              "fireplace"
+            ]
+          },
+          "amenities": [
+            "bath",
+            "covered patio",
+            "cozy fireplace",
+            "fireplace",
+            "landscaping",
+            "living",
+            "patio"
+          ],
+          "condition_keywords": [],
+          "financing_terms": [],
+          "location_features": [
+            "quiet neighborhood"
+          ],
+          "cached": false
+        }
+      },
+      "latencies": {
+        "parse": 1.7,
+        "intent": 1.4,
+        "search": 0.9,
+        "summarize": 2.8,
+        "compliance": 1.1,
+        "signals": 4.1
+      },
+      "total_latency_ms": 12.0
+    },
+    {
+      "query": "luxury home with master suite and granite countertops",
+      "steps": {
+        "parse": {
+          "query": "luxury home with master suite and granite countertops",
+          "filters": {
+            "amenity": "master suite"
+          },
+          "sql": "SELECT * FROM rets_property WHERE L_Remarks LIKE %s",
+          "params": [
+            "%master suite%"
+          ],
+          "valid": true,
+          "validation_errors": [],
+          "cached": false
+        },
+        "intent": {
+          "query": "luxury home with master suite and granite countertops",
+          "intent": "ready_to_buy",
+          "confidence": 0.5673,
+          "probabilities": {
+            "browsing": 0.2193,
+            "ready_to_buy": 0.5673,
+            "researching": 0.2134
+          },
+          "cached": false
+        },
+        "search": null,
+        "summarize": {
+          "text": "Luxury 5 bed, 4 bath estate with master suite, granite countertops, and custom cabinetry. Wine cellar, home theater, and resort-style pool. Gated community. $1,800,000.",
+          "summary": "Luxury 5 bed, 4 bath estate with master suite, granite countertops, and custom cabinetry. Gated community.",
+          "beds": 5,
+          "baths": 4.0,
+          "price": 1800000,
+          "sqft": null,
+          "top_features": [
+            "pool",
+            "granite"
+          ],
+          "location": null,
+          "cached": false
+        },
+        "compliance": {
+          "text": "Luxury 5 bed, 4 bath estate with master suite, granite countertops, and custom cabinetry. Wine cellar, home theater, and resort-style pool. Gated community. $1,800,000.",
+          "compliant": true,
+          "violations": [],
+          "stats": {
+            "error": 0,
+            "warning": 0,
+            "info": 0
+          },
+          "cached": false
+        },
+        "signals": {
+          "text": "Luxury 5 bed, 4 bath estate with master suite, granite countertops, and custom cabinetry. Wine cellar, home theater, and resort-style pool. Gated community. $1,800,000.",
+          "entities": {
+            "bedrooms": 5,
+            "bathrooms": 4.0,
+            "price": 1800000,
+            "sqft": null,
+            "amenities": [
+              "pool"
+            ]
+          },
+          "amenities": [
+            "bath",
+            "master",
+            "master suite",
+            "pool",
+            "suite"
+          ],
+          "condition_keywords": [],
+          "financing_terms": [],
+          "location_features": [
+            "gated",
+            "gated community"
+          ],
+          "cached": false
+        }
+      },
+      "latencies": {
+        "parse": 1.6,
+        "intent": 1.3,
+        "search": 0.7,
+        "summarize": 2.8,
+        "compliance": 1.0,
+        "signals": 4.2
+      },
+      "total_latency_ms": 11.6
+    },
+    {
+      "query": "energy efficient home with solar panels",
+      "steps": {
+        "parse": {
+          "query": "energy efficient home with solar panels",
+          "filters": {},
+          "sql": "SELECT * FROM rets_property",
+          "params": [],
+          "valid": true,
+          "validation_errors": [],
+          "cached": false
+        },
+        "intent": {
+          "query": "energy efficient home with solar panels",
+          "intent": "ready_to_buy",
+          "confidence": 0.5752,
+          "probabilities": {
+            "browsing": 0.2437,
+            "ready_to_buy": 0.5752,
+            "researching": 0.1811
+          },
+          "cached": false
+        },
+        "search": null,
+        "summarize": {
+          "text": "Energy efficient 3 bed home with solar panels and tankless water heater. Smart home technology throughout. EV charging in garage. Near transit. $550,000.",
+          "summary": "Energy efficient 3 bed home with solar panels and tankless water heater. Smart home technology throughout.",
+          "beds": 3,
+          "baths": null,
+          "price": 550000,
+          "sqft": null,
+          "top_features": [
+            "garage",
+            "solar"
+          ],
+          "location": "near transit",
+          "cached": false
+        },
+        "compliance": {
+          "text": "Energy efficient 3 bed home with solar panels and tankless water heater. Smart home technology throughout. EV charging in garage. Near transit. $550,000.",
+          "compliant": true,
+          "violations": [],
+          "stats": {
+            "error": 0,
+            "warning": 0,
+            "info": 0
+          },
+          "cached": false
+        },
+        "signals": {
+          "text": "Energy efficient 3 bed home with solar panels and tankless water heater. Smart home technology throughout. EV charging in garage. Near transit. $550,000.",
+          "entities": {
+            "bedrooms": 3,
+            "bathrooms": null,
+            "price": 550000,
+            "sqft": null,
+            "amenities": [
+              "water heater",
+              "garage",
+              "heater"
+            ]
+          },
+          "amenities": [
+            "garage",
+            "heater",
+            "water heater"
+          ],
+          "condition_keywords": [],
+          "financing_terms": [],
+          "location_features": [],
+          "cached": false
+        }
+      },
+      "latencies": {
+        "parse": 1.6,
+        "intent": 1.2,
+        "search": 0.6,
+        "summarize": 2.8,
+        "compliance": 0.8,
+        "signals": 4.6
+      },
+      "total_latency_ms": 11.6
+    }
+  ],
+  "comparison_results": [
+    {
+      "query": "3 bed 2 bath under 700k in Irvine",
+      "semantic_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bm25_scores": [
+        2.4819,
+        2.4819,
+        2.4819,
+        2.4819,
+        2.4819
+      ],
+      "semantic_avg_score": 1.0,
+      "bm25_avg_score": 2.4819,
+      "overlap": 2,
+      "overlap_pct": 40.0
+    },
+    {
+      "query": "modern condo with pool near schools",
+      "semantic_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bm25_scores": [
+        4.5258,
+        4.5258,
+        4.5258,
+        4.5258,
+        4.5258
+      ],
+      "semantic_avg_score": 1.0,
+      "bm25_avg_score": 4.5258,
+      "overlap": 2,
+      "overlap_pct": 40.0
+    },
+    {
+      "query": "spacious home with large backyard and garage",
+      "semantic_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bm25_scores": [
+        5.7362,
+        5.7362,
+        5.7362,
+        5.7362,
+        5.7362
+      ],
+      "semantic_avg_score": 1.0,
+      "bm25_avg_score": 5.7362,
+      "overlap": 2,
+      "overlap_pct": 40.0
+    },
+    {
+      "query": "waterfront property with ocean views",
+      "semantic_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bm25_scores": [
+        6.351,
+        6.351,
+        6.351,
+        6.351,
+        6.351
+      ],
+      "semantic_avg_score": 1.0,
+      "bm25_avg_score": 6.351,
+      "overlap": 2,
+      "overlap_pct": 40.0
+    },
+    {
+      "query": "4 bed house with updated kitchen under 500k",
+      "semantic_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bm25_scores": [
+        2.4067,
+        2.4067,
+        2.4067,
+        2.4067,
+        2.4067
+      ],
+      "semantic_avg_score": 1.0,
+      "bm25_avg_score": 2.4067,
+      "overlap": 2,
+      "overlap_pct": 40.0
+    }
+  ],
+  "latency_summary": {
+    "parse": {
+      "avg_ms": 2.0,
+      "p95_ms": 3.3,
+      "max_ms": 3.8,
+      "count": 8
+    },
+    "intent": {
+      "avg_ms": 1.4,
+      "p95_ms": 1.8,
+      "max_ms": 2.0,
+      "count": 8
+    },
+    "search": {
+      "avg_ms": 0.8,
+      "p95_ms": 1.0,
+      "max_ms": 1.0,
+      "count": 8
+    },
+    "summarize": {
+      "avg_ms": 3.4,
+      "p95_ms": 5.3,
+      "max_ms": 6.3,
+      "count": 8
+    },
+    "compliance": {
+      "avg_ms": 1.0,
+      "p95_ms": 1.2,
+      "max_ms": 1.2,
+      "count": 8
+    },
+    "signals": {
+      "avg_ms": 4.5,
+      "p95_ms": 5.1,
+      "max_ms": 5.3,
+      "count": 8
+    },
+    "total_pipeline": {
+      "avg_ms": 13.1,
+      "p95_ms": 17.3,
+      "max_ms": 19.6,
+      "count": 8
+    }
+  },
+  "api_stats": {
+    "uptime_seconds": 1.56,
+    "total_requests": 49,
+    "cache_size": 40,
+    "cache_hits": 0,
+    "cache_misses": 40,
+    "cache_hit_rate": 0.0,
+    "search_available": false
+  }
+}

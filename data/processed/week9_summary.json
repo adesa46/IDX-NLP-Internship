@@ -1,0 +1,208 @@
+{
+  "total_listings_scanned": 1000,
+  "flagged_listings": 6,
+  "flagged_pct": 0.6,
+  "total_violations": 38,
+  "severity_breakdown": {
+    "error": 1,
+    "warning": 6,
+    "info": 31
+  },
+  "category_breakdown": {
+    "exclusionary": 5,
+    "familial_status": 25,
+    "race": 6,
+    "religion": 1,
+    "sex": 1
+  },
+  "recall": 1.0,
+  "recall_detected": 25,
+  "recall_total": 25,
+  "precision": 1.0,
+  "precision_correct": 20,
+  "precision_total": 20,
+  "workflow_demo": [
+    {
+      "listing_id": "DEMO-001",
+      "text": "Beautiful 4 bed, 3 bath home with pool. Near top schools. $750,000.",
+      "approved": true,
+      "needs_review": false,
+      "recommendation": "APPROVED: No Fair Housing concerns detected.",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0
+    },
+    {
+      "listing_id": "DEMO-002",
+      "text": "No children allowed. Adults only building with quiet residents.",
+      "approved": false,
+      "needs_review": false,
+      "recommendation": "BLOCKED: 2 Fair Housing violation(s) found. These must be corrected before the listing can be published.",
+      "errors": 2,
+      "warnings": 0,
+      "infos": 0
+    },
+    {
+      "listing_id": "DEMO-003",
+      "text": "Lovely home in an exclusive neighborhood for mature residents.",
+      "approved": false,
+      "needs_review": true,
+      "recommendation": "REVIEW REQUIRED: 1 potential issue(s) found. A compliance officer should review before publication.",
+      "errors": 0,
+      "warnings": 1,
+      "infos": 0
+    },
+    {
+      "listing_id": "DEMO-004",
+      "text": "Must be able-bodied. Walk-up only, no wheelchairs.",
+      "approved": false,
+      "needs_review": false,
+      "recommendation": "BLOCKED: 3 Fair Housing violation(s) found. These must be corrected before the listing can be published.",
+      "errors": 3,
+      "warnings": 1,
+      "infos": 0
+    },
+    {
+      "listing_id": "DEMO-005",
+      "text": "Charming 2 bed condo. Wheelchair accessible. Near downtown.",
+      "approved": true,
+      "needs_review": false,
+      "recommendation": "APPROVED: No Fair Housing concerns detected.",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0
+    }
+  ],
+  "sample_violations": [
+    {
+      "listing_id": 685,
+      "text": "Welcome to 873 San Ignacio Drive, Hemet \u2014 located in a desirable 55+ community with land ownership. This move-in-ready home offers comfortable, low-ma",
+      "violations": [
+        {
+          "category": "familial_status",
+          "pattern": "55+",
+          "severity": "info"
+        },
+        {
+          "category": "familial_status",
+          "pattern": "55+",
+          "severity": "info"
+        },
+        {
+          "category": "familial_status",
+          "pattern": "55+",
+          "severity": "info"
+        },
+        {
+          "category": "familial_status",
+          "pattern": "age-restricted",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "listing_id": 50,
+      "text": "This condo is all about location and the location is super! Walk to the main Clubhouse and shopping center from this condo situated in fabulouse Sun L",
+      "violations": [
+        {
+          "category": "familial_status",
+          "pattern": "55+",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "listing_id": 2,
+      "text": "Welcome to this beautiful two-story West Lancaster pool home, located in a highly desirable, upscale neighborhood\u2014offering the perfect blend of comfor",
+      "violations": [
+        {
+          "category": "exclusionary",
+          "pattern": "upscale",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "listing_id": 819,
+      "text": "Welcome to effortless living in the sought-after 55+ gated community of Terramor. Tucked away at the end of a quiet street, this beautifully maintaine",
+      "violations": [
+        {
+          "category": "familial_status",
+          "pattern": "55+",
+          "severity": "info"
+        },
+        {
+          "category": "familial_status",
+          "pattern": "55+",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "listing_id": 230,
+      "text": "Welcome to this 2-bedroom, 2-bath condo located in a desirable 55+ community in the heart of Redondo Beach. This light-filled home features hardwood f",
+      "violations": [
+        {
+          "category": "familial_status",
+          "pattern": "55+",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "listing_id": 226,
+      "text": "s own private courtyard. The Primary bathroom offers a large soaking tub and double granite vanities and large walk in shower, with the bedroom lookin",
+      "violations": [
+        {
+          "category": "familial_status",
+          "pattern": "quiet community",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "listing_id": 827,
+      "text": "Welcome to your cozy retreat in the desirable Sierra Dawn 55+ community of Hemet, CA! This charming home offers comfortable living in a serene environ",
+      "violations": [
+        {
+          "category": "familial_status",
+          "pattern": "55+",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "listing_id": 105,
+      "text": "This stunning custom residence, built by renowned R&J Construction, rests on nearly half an acre surrounded by lush, mature landscaping. Designed for ",
+      "violations": [
+        {
+          "category": "race",
+          "pattern": "integrated",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "listing_id": 880,
+      "text": "Welcome to this charming home in the highly desirable Sun Park II community a warm and inviting 55+ neighborhood known for its low HOA. This one-of-a-",
+      "violations": [
+        {
+          "category": "familial_status",
+          "pattern": "55+",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "listing_id": 598,
+      "text": "Welcome to this unique property this beautifully maintained and thoughtfully updated property offers a perfect blend of comfort, functionality, and ch",
+      "violations": [
+        {
+          "category": "familial_status",
+          "pattern": "nursery",
+          "severity": "info"
+        }
+      ]
+    }
+  ]
+}

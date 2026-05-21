@@ -1,0 +1,41 @@
+{
+  "valid_cities": [
+    "Irvine",
+    "Portland",
+    "the suburbs",
+    "the city center",
+    "uptown",
+    "the hills",
+    "the valley",
+    "downtown",
+    "the beach",
+    "Los Angeles",
+    "San Diego"
+  ],
+  "valid_property_types": [
+    "single family",
+    "single familys",
+    "condo",
+    "townhouse"
+  ],
+  "valid_styles": [
+    "modern",
+    "contemporary",
+    "colonial",
+    "ranch"
+  ],
+  "valid_amenities": [
+    "pool",
+    "garage",
+    "large backyard",
+    "updated kitchen",
+    "master suite",
+    "dining room",
+    "walk in closet"
+  ],
+  "valid_locations": [
+    "good schools",
+    "the park",
+    "shopping centers"
+  ]
+}
